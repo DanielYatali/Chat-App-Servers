@@ -8,7 +8,10 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: [
+      "http://localhost:3000",
+      ["https://chat-app-phi-ecru.vercel.app/"],
+    ],
   },
 });
 

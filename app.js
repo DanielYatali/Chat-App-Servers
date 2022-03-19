@@ -1,6 +1,7 @@
 const express = require("express");
 const socketIo = require("socket.io");
 const http = require("http");
+const path = require("path");
 const PORT = process.env.PORT || 5000;
 const app = express();
 const server = http.createServer(app);
@@ -13,6 +14,7 @@ const io = socketIo(server, {
 
 //in case server and client run on different urls
 
+app.use(express.static(path.join(__dirname, "public")));
 server.listen(PORT, (err) => {
   if (err) console.log(err);
   console.log("Server running on Port ", PORT);

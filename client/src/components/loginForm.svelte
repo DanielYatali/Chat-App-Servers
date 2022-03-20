@@ -25,7 +25,7 @@ import { goto } from '$app/navigation';
 		};
 		(async () => {
 			const rawResponse = await fetch(
-				'http://localhost:8080/auth',
+				'https://hpofficepaper-database-chatapp.herokuapp.com/auth',
 				{
 					method: 'POST',
 					headers: {

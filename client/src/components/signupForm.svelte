@@ -27,7 +27,7 @@
 			};
 			(async () => {
 				const rawResponse = await fetch(
-					'http://localhost:8080/signup',
+					'https://hpofficepaper-database-chatapp.herokuapp.com/signup',
 					{
 						method: 'POST',
 						headers: {

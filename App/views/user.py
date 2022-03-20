@@ -33,4 +33,4 @@ def static_user_page():
 @user_views.route('/signup', methods=['POST'])
 def sign_up():
     userdata = request.get_json()
-    return signup(userdata['username'],userdata['email'], userdata['password'])
+    return jsonify(signup(userdata['username'],userdata['email'], userdata['password']))

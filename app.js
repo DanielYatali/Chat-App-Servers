@@ -22,10 +22,15 @@ server.listen(PORT, (err) => {
 
 io.on("connection", (socket) => {
   console.log("client connected:", socket.id);
+  socket.on("join-room", (data) => {
+    socket.join(data);
+  });
   socket.on("send-message", (msg) => {
     console.log("hi");
-    io.emit("receive-message", msg);
+    console.log(msg.room);
+    io.to(msg.room).emit("receive-message", msg);
   });
+
   socket.on("disconnect", (reason) => {
     console.log(reason);
   });

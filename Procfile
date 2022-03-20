@@ -1,1 +1,1 @@
-web: sh -c 'npm run init && gunicorn App.main:app'
+web: gunicorn App.main:app

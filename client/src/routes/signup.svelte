@@ -2,7 +2,7 @@
 	import SignUpForm from '../components/signupForm.svelte';
 </script>
 
-<div class="container">
+<div class="form-container">
 	<SignUpForm />
 </div>
 

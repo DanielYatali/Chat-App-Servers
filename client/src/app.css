@@ -11,8 +11,8 @@
 .card {
 	@apply flex flex-col gap-6 text-center justify-center items-center;
 }
-.container {
-	@apply w-80 pt-10 pb-10 rounded-md bg-pink-300;
+.form-container {
+	@apply container w-80 pt-10 pb-10 rounded-md bg-pink-300;
 	margin: 0;
 	position: absolute;
 	top: 50%;

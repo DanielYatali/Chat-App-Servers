@@ -2,7 +2,7 @@
 	import Login from '../components/loginForm.svelte';
 </script>
 
-<div class="container">
+<div class="form-container">
 	<Login />
 </div>
 

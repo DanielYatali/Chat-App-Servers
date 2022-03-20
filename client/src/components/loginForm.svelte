@@ -22,12 +22,20 @@
 			username: $name.value,
 			password: $password.value,
 		};
-		console.log(user);
-		// fetch('https://alivewrathfulwireframe.danielyatali0.repl.co/rand', {
-		// 	mode: 'no-cors',
-		// })
-		// 	.then((results) => results.json())
-		// 	.then(console.log);
+			(async () => {
+  const rawResponse = await fetch('https://8080-danielyatali-flaskmvc-3cd8pezq48y.ws-us38.gitpod.io/auth', {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(user)
+  });
+  const content = await rawResponse.json();
+
+  console.log(content);
+})();
+		// console.log(user);
 	}
 </script>
 <!-- conditional rendering -->

@@ -1,8 +1,29 @@
+<script context="module">
+	export async function load({ url, params, props }) {
+		// const socket = io('https://hpoffice-paper-chat-app-server.herokuapp.com/');
+		// return {
+		// 	props: {
+		// 		socket
+		// 	}
+		// };
+	}
+</script>
+
 <script>
+	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte/internal';
 	import { io } from 'socket.io-client';
-	import { onMount } from 'svelte';
+	export let receiver;
+	export let sender;
+	onMount(() => {
+		//enable this after testing
+		if (!sender.loggedIn) {
+			goto('/');
+		}
+	});
+	const socket = io('http://localhost:5000/');
 	let id;
-	const socket = io('https://hpoffice-paper-chat-app-server.herokuapp.com/');
+	let chat_box;
 
 	//Remember to implent this in an onLoad function
 	socket.on('connection', () => {
@@ -10,29 +31,48 @@
 	});
 	socket.on('connect', () => {
 		id = socket.id;
-		// console.log(socket.connected);
 		console.log(socket.id);
+		socket.emit('join-room', receiver);
 		socket.on('receive-message', (msg) => {
 			messages = [...messages, msg];
-			// console.log(msg);
 		});
 	});
 	let messages = [];
 	let message;
 
 	const handleSubmit = () => {
-		if (message != '') socket.emit('send-message', { msg: message, id: id });
+		let today = new Date();
+		// let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+		let time = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
+		// let dateTime = date+' '+time;
+		if (message != '')
+			socket.emit('send-message', {
+				msg: message,
+				id: id,
+				time: time,
+				username: sender.username,
+				room: receiver
+			});
 		message = '';
 	};
 </script>
 
-<div class="container flex flex-col overflow-y-auto bg-red-500 p-10">
-	<div class="h-96 bg-orange-400">
+<h1>Sender : {sender.username} Receiver: {receiver}</h1>
+<div class="container flex flex-col bg-red-500 p-10">
+	<div bind:this={chat_box} class="h-96 bg-orange-400 overflow-y-scroll">
 		{#each messages as message}
 			{#if message.id == id}
-				<p class="message sent">{message.msg}</p>
+				<div class="flex flex-col message sent">
+					<p class="flex text-gray-500">{message.username}</p>
+					<p>{message.msg}</p>
+					<p class="float-right">{message.time}</p>
+				</div>
 			{:else}
-				<p class="message received">{message.msg}</p>
+				<div class="flex flex-col message received">
+					<p class="flex text-gray-500">{message.username}</p>
+					<p>{message.msg}</p>
+					<p class="float-right">{message.time}</p>
+				</div>
 			{/if}
 		{/each}
 	</div>
@@ -62,6 +102,7 @@
 		padding: 8px;
 		position: relative;
 		margin: 8px 0;
+		width: 25%;
 		max-width: 85%;
 		word-wrap: break-word;
 		/* z-index: -1; */

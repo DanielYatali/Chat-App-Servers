@@ -30,14 +30,17 @@
 				email: $email.value
 			};
 			(async () => {
-				const rawResponse = await fetch('http:/localhost:8080/signup', {
-					method: 'POST',
-					headers: {
-						Accept: 'application/json',
-						'Content-Type': 'application/json'
-					},
-					body: JSON.stringify(user)
-				});
+				const rawResponse = await fetch(
+					'https://hpofficepaper-database-chatapp.herokuapp.com/signup',
+					{
+						method: 'POST',
+						headers: {
+							Accept: 'application/json',
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify(user)
+					}
+				);
 				const content = await rawResponse.json();
 				console.log(content);
 				signupResponse = content;

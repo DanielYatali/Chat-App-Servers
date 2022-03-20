@@ -21,7 +21,7 @@
 			goto('/');
 		}
 	});
-	const socket = io('http://localhost:5000/');
+	const socket = io('https://hpoffice-paper-chat-app-server.herokuapp.com/');
 	let id;
 	let chat_box;
 

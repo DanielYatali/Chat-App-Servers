@@ -1,9 +1,9 @@
 <script>
-import { goto } from '$app/navigation';
+	import { goto } from '$app/navigation';
 
 	import { form, field } from 'svelte-forms';
 	import { required } from 'svelte-forms/validators';
-	import currentUser from '../stores/userDataStore'
+	import currentUser from '../stores/userDataStore';
 	//Creating form fields
 	const name = field('name', '', [required()], {
 		validateOnChange: false
@@ -13,7 +13,7 @@ import { goto } from '$app/navigation';
 	});
 
 	const myForm = form(name, password);
-	let loginResponse = {}
+	let loginResponse = {};
 	let error = false;
 	//Validates the user input when button is clicked
 	function validate() {
@@ -24,30 +24,26 @@ import { goto } from '$app/navigation';
 			password: $password.value
 		};
 		(async () => {
-			const rawResponse = await fetch(
-				'http://localhost:8080/auth',
-				{
-					method: 'POST',
-					headers: {
-						Accept: 'application/json',
-						'Content-Type': 'application/json'
-					},
-					body: JSON.stringify(user)
-				}
-			);
+			const rawResponse = await fetch('https://hpofficepaper-database-chatapp.herokuapp.com/auth', {
+				method: 'POST',
+				headers: {
+					Accept: 'application/json',
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(user)
+			});
 			const content = await rawResponse.json();
-			loginResponse = content
-			console.log(loginResponse)
-			if(loginResponse.hasOwnProperty('access_token')){
+			loginResponse = content;
+			console.log(loginResponse);
+			if (loginResponse.hasOwnProperty('access_token')) {
 				currentUser.set({
 					username: user.username,
 					token: loginResponse.access_token,
 					loggedIn: true
-				})
-				goto('/chat')
-			}
-			else{
-				error = true
+				});
+				goto('/chat');
+			} else {
+				error = true;
 			}
 		})();
 	}
@@ -65,7 +61,7 @@ import { goto } from '$app/navigation';
 		<div class="error">Password is required</div>
 	{/if}
 	{#if error}
-		 <p>Invalid Credentials</p>
+		<p>Invalid Credentials</p>
 	{/if}
 	<button class="action-btn" on:click={validate}>Login</button>
 </div>

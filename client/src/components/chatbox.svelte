@@ -17,11 +17,12 @@
 	export let sender;
 	onMount(() => {
 		//enable this after testing
-		if (!sender.loggedIn) {
-			goto('/');
-		}
+		// if (!sender.loggedIn) {
+		// 	goto('/');
+		// }
 	});
 	const socket = io('https://hpoffice-paper-chat-app-server.herokuapp.com/');
+	// const socket = io('http://localhost:5000/');
 	let id;
 	let chat_box;
 
@@ -32,6 +33,7 @@
 	socket.on('connect', () => {
 		id = socket.id;
 		console.log(socket.id);
+		console.log(receiver);
 		socket.emit('join-room', receiver);
 		socket.on('receive-message', (msg) => {
 			messages = [...messages, msg];

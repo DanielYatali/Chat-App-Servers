@@ -2,12 +2,12 @@
 	import { get } from 'svelte/store';
 	import currentUser from '../../stores/userDataStore.js';
 	export async function load({ url, params }) {
-		const Receiver = params.to;
-		const Sender = get(currentUser);
+		const receiver = params.to;
+		const sender = get(currentUser);
 		return {
 			props: {
-				Receiver,
-				Sender
+				receiver,
+				sender
 			}
 		};
 	}
@@ -15,11 +15,12 @@
 
 <script>
 	import ChatBox from '../../components/chatbox.svelte';
-	export let Receiver;
-	export let Sender;
+	export let receiver;
+	console.log('int to' + receiver);
+	export let sender;
 </script>
 
-<h1>Welcome {Sender.username}</h1>
+<h1>Welcome {sender.username}</h1>
 <div>
-	<ChatBox receiver={Receiver} sender={Sender} />
+	<ChatBox {receiver} {sender} />
 </div>

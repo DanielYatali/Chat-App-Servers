@@ -41,7 +41,7 @@
 					token: loginResponse.access_token,
 					loggedIn: true
 				});
-				goto('/chat');
+				goto('/join');
 			} else {
 				error = true;
 			}

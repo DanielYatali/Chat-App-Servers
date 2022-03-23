@@ -33,7 +33,7 @@ def get_conversations():
 
 
 @conversation_views.route('/conversation/messages', methods=['POST'])
-@jwt_required()
+# @jwt_required()
 def get_the_conversation_messages():
     data = request.get_json()
     return jsonify(get_conversation_messages(data['conversation_name']))

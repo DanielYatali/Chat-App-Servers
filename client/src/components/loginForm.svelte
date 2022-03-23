@@ -24,7 +24,7 @@
 			password: $password.value
 		};
 		(async () => {
-			const rawResponse = await fetch('https://hpofficepaper-database-chatapp.herokuapp.com/auth', {
+			const rawResponse = await fetch('http://localhost:8080/auth', {
 				method: 'POST',
 				headers: {
 					Accept: 'application/json',

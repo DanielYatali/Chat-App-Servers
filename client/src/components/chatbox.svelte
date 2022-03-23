@@ -4,18 +4,29 @@
 	import { io } from 'socket.io-client';
 	export let receiver;
 	export let sender;
-	export let oldMessages;
+	let messages = [];
+	let message;
 	onMount(() => {
-		//enable this after testing
-		// if (!sender.loggedIn) {
-		// 	goto('/');
-		// }
+		let data = {};
+		data['conversation_name'] = receiver;
+		(async () => {
+			const rawResponse = await fetch('http://localhost:8080/conversation/messages', {
+				method: 'POST',
+				headers: {
+					Accept: 'application/json',
+					Authorization: 'JWT ' + sender.token,
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(data)
+			});
+			messages = await rawResponse.json();
+			console.log(messages);
+		})();
 	});
 	// const socket = io('https://hpoffice-paper-chat-app-server.herokuapp.com/');
 	const socket = io('http://localhost:5000/');
 	let id;
 	let chat_box;
-
 	//Remember to implent this in an onLoad function
 	socket.on('connection', () => {
 		console.log(socket.id);
@@ -29,8 +40,6 @@
 			messages = [...messages, msg];
 		});
 	});
-	let messages = [];
-	let message;
 
 	const handleSubmit = () => {
 		let today = new Date();
@@ -39,11 +48,11 @@
 		// let dateTime = date+' '+time;
 		if (message != '')
 			socket.emit('send-message', {
-				msg: message,
-				id: id,
-				time: time,
-				username: sender.username,
-				room: receiver
+				conversation_name: receiver,
+				sender_name: sender.username,
+				content: message,
+				datetime: time,
+				token: sender.token
 			});
 		message = '';
 	};
@@ -53,17 +62,17 @@
 <div class="container flex flex-col bg-red-500 p-10">
 	<div bind:this={chat_box} class="h-96 bg-orange-400 overflow-y-scroll">
 		{#each messages as message}
-			{#if message.id == id}
+			{#if message.sender_name == sender.username}
 				<div class="flex flex-col message sent">
-					<p class="flex text-gray-500">{message.username}</p>
-					<p>{message.msg}</p>
-					<p class="float-right">{message.time}</p>
+					<p class="flex text-gray-500">{message.sender_name}</p>
+					<p>{message.content}</p>
+					<p class="float-right">{message.datetime}</p>
 				</div>
 			{:else}
 				<div class="flex flex-col message received">
-					<p class="flex text-gray-500">{message.username}</p>
-					<p>{message.msg}</p>
-					<p class="float-right">{message.time}</p>
+					<p class="flex text-gray-500">{message.sender_name}</p>
+					<p>{message.content}</p>
+					<p class="float-right">{message.content}</p>
 				</div>
 			{/if}
 		{/each}

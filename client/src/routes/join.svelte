@@ -14,7 +14,7 @@
 		// 	goto('/');
 		// }
 	});
-	const Rooms = ['Room-10', 'Room-2', 'Room-3', 'Room-4', 'room 7'];
+	const Rooms = ['Room-10', 'Room-2', 'Room-3', 'Room-4'];
 	let selected = 'Room-10';
 	const handleSelect = () => {
 		goto(`/chat/${selected}`);

@@ -1,28 +1,18 @@
-<script context="module">
-	export async function load({ url, params, props }) {
-		// const socket = io('https://hpoffice-paper-chat-app-server.herokuapp.com/');
-		// return {
-		// 	props: {
-		// 		socket
-		// 	}
-		// };
-	}
-</script>
-
 <script>
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte/internal';
 	import { io } from 'socket.io-client';
 	export let receiver;
 	export let sender;
+	export let oldMessages;
 	onMount(() => {
 		//enable this after testing
 		// if (!sender.loggedIn) {
 		// 	goto('/');
 		// }
 	});
-	const socket = io('https://hpoffice-paper-chat-app-server.herokuapp.com/');
-	// const socket = io('http://localhost:5000/');
+	// const socket = io('https://hpoffice-paper-chat-app-server.herokuapp.com/');
+	const socket = io('http://localhost:5000/');
 	let id;
 	let chat_box;
 

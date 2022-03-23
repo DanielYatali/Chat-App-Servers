@@ -1,13 +1,12 @@
 from flask import Blueprint, render_template, jsonify, request, send_from_directory
 from flask_jwt import jwt_required
 
-
 from App.controllers import (
-    create_user, 
     get_all_users,
     get_all_users_json,
-    signup
+    signup,
 )
+
 
 user_views = Blueprint('user_views', __name__, template_folder='../templates')
 
@@ -34,3 +33,6 @@ def static_user_page():
 def sign_up():
     userdata = request.get_json()
     return jsonify(signup(userdata['username'],userdata['email'], userdata['password']))
+
+
+

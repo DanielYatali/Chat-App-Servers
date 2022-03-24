@@ -42,15 +42,18 @@ io.on("connection", (socket) => {
   });
   socket.on("send-message", (msg) => {
     async function fetchAsync() {
-      let response = await fetch("http://localhost:8080/save/message", {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          Authorization: "JWT " + msg.token,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(msg),
-      });
+      let response = await fetch(
+        "https://hpofficepaper-database-chatapp.herokuapp.com/save/message",
+        {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            Authorization: "JWT " + msg.token,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(msg),
+        }
+      );
       let data = await response.json();
       console.log("this");
       console.log(data);

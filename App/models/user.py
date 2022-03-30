@@ -23,9 +23,8 @@ class User(db.Model):
         }
     def toDict_info(self):
         return{
-            'id': self.id,
             'username': self.username,
-            'user_info': self.user_info.toDict()
+            'information': self.user_info.toDict()
         }
     
     def set_password(self, password):

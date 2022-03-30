@@ -4,7 +4,8 @@ from flask_jwt import jwt_required
 from App.controllers import (
     create_user_info,
     get_user_info,
-    update_user_info
+    update_user_info,
+    match
 )
 
 
@@ -29,3 +30,8 @@ def update_info_for_user():
     data = request.get_json()
     return jsonify(update_user_info(data['user_id'], data['user_info']))
 
+@user_info_views.route('/user/match', methods = ['GET'])
+@jwt_required()
+def get_matches():
+    data = request.get_json()
+    return jsonify(match(data['user_id']))

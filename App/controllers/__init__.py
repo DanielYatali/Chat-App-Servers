@@ -1,4 +1,4 @@
 from .user import *
 from .auth import *
 from .conversation import*
-from .group_member import*
+from .user_info import *

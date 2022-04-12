@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, jsonify, request, send_from_directory
-from flask_jwt import jwt_required
+from flask_jwt import jwt_required, current_identity
 
 from App.controllers import (
     get_all_users,
@@ -40,3 +40,7 @@ def sign_up():
 def user_id(username):
     return jsonify(get_user_id(username)), 200
 
+@user_views.route('/identify')
+@jwt_required()
+def protected():
+    return jsonify(current_identity.toDict())

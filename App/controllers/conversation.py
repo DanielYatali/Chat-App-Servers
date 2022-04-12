@@ -1,21 +1,50 @@
 
-from App.models import Conversation, Message, User, message
+from App.models import Conversation, Message, User, conversation
 from App.database import db
 
 
-def save_message(sender_name, conversation_id, content, datetime):
+def save_message(user, conversation_id, content, datetime):
     conversation = Conversation.query.get(conversation_id)
     if not conversation:
         return {
             "message": "conversation does not exist"
         }
-    new_message = Message(sender_name=sender_name, conversation_id=conversation_id, content = content, datetime=datetime)
-    db.session.add(new_message)
-    conversation.messages.append(new_message)
-    db.session.commit()
+    # in_conversation = User.query.filter(User.conversations.any(id==conversation_id)).one()
+    #figure out later
+    user_conversations = user.conversations
+    for i in user_conversations:
+        if i.id == conversation_id:
+            new_message = Message(sender_name=user.id, conversation_id=conversation_id, content = content, datetime=datetime)
+            db.session.add(new_message)
+            conversation.messages.append(new_message)
+            db.session.commit()
+            return {
+                "message": "message added"
+            }
     return {
-        "message": "message added"
+        "message": "you have not joined this chat"
     }
+
+#This function checks if two users have a chat together if they don't then a new private group will be created for them to chat
+def check_conversation_talk(sender_id, receiver_id):
+    sender = User.query.get(sender_id)
+    receiver = User.query.get(receiver_id)
+    if not sender or not receiver:
+        return {"message": "one user does not exist"}
+    convo_name1 = sender.username + '+' + receiver.username
+    convo_name2 = receiver.username +'+' + sender.username
+    conversation = Conversation.query.filter((Conversation.conversation_name == convo_name1) | (Conversation.conversation_name == convo_name2)).first()
+    if not conversation:
+        new_conversation = Conversation(conversation_name=convo_name1, private= True)
+        db.session.add(new_conversation)
+        db.session.commit()
+
+        #add both users to conversation
+        join_conversation(sender_id, new_conversation.id)
+        join_conversation(receiver_id, new_conversation.id)
+        return new_conversation.toDict()
+    return conversation.toDict()
+
 
 def create_conversation(conversation_name, private):
     conversation = Conversation.query.filter_by(conversation_name = conversation_name).first()
@@ -100,3 +129,27 @@ def join_conversation(user_id, conversation_id):
     return {
         'message': f"user joined {join_conversation.conversation_name}"
     }
+
+
+def create_matches_coversations(user, matches):
+    for match in matches: 
+        check_conversation_talk(user.id, match)
+    return {"message": "conversations created"}
+
+#Get all user's current conversations to be displayed on the side bar.
+#Since some conversations may be private and some conversations may be groups some extra work needs to be done
+def get_user_conversations_and_info(current_user):
+    conversations = current_user.conversations #get all user conversations
+    chats = []
+    for conversation in conversations:
+        users = conversation.users #get all users for that conversation
+        if conversation.private: #only 2 users would be in the conversation if private
+            for user in users:
+                if(current_user.id != user.id): #find the other user
+                    other_user = conversation.toDict()
+                    if user.user_info:
+                        other_user.update(user.user_info.chatInfo()) #append the user info and the conversation data
+                    chats.append(other_user)
+        else:
+            chats.append(conversation.toDict()) #else its a group chat so just append the conversations info
+    return chats

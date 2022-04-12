@@ -10,7 +10,7 @@ class Conversation(db.Model):
 
     def toDict(self):
         return{
-            'id': self.id,
+            'conversation_id': self.id,
             'conversation_name': self.conversation_name,
             'private': self.private,
         }

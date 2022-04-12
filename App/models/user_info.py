@@ -64,5 +64,12 @@ class User_info(db.Model):
             'bot': self.bot,
             'other_info': self.other_info,
         }
+    def chatInfo(self):
+        return{
+            "user_id": self.user_id,
+            "username": self.user.username,
+            "photo": self.photo,
+            "bot": self.bot
+        }
 
 

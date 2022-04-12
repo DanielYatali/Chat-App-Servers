@@ -16,22 +16,20 @@ user_info_views = Blueprint('user_info_views', __name__, template_folder='../tem
 @jwt_required()
 def add_user_info():
     data = request.get_json()
-    return jsonify(create_user_info(data['user_id'], data['user_info']))
+    return jsonify(create_user_info(data)), 201
 
-@user_info_views.route('/user/info', methods=['GET'])
+@user_info_views.route('/<user_id>/info', methods=['GET'])
 @jwt_required()
-def get_info_for_user():
-    data = request.get_json()
-    return jsonify(get_user_info(data['user_id']))
+def get_info_for_user(user_id):
+    return jsonify(get_user_info(user_id))
 
 @user_info_views.route('/user/update_info', methods=['POST'])
 @jwt_required()
 def update_info_for_user():
     data = request.get_json()
-    return jsonify(update_user_info(data['user_id'], data['user_info']))
+    return jsonify(update_user_info(data)), 200
 
-@user_info_views.route('/user/match', methods = ['GET'])
+@user_info_views.route('/<user_id>/match', methods = ['GET'])
 @jwt_required()
-def get_matches():
-    data = request.get_json()
-    return jsonify(match(data['user_id']))
+def get_matches(user_id):
+    return jsonify(match(user_id)), 200

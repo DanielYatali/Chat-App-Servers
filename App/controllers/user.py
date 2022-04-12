@@ -1,6 +1,11 @@
-from App.models import User
+from App.models import User, message
 from App.database import db
 
+def get_user_id(username):
+    user = User.query.filter_by(username = username).first()
+    if not user:
+        return {"message": "user does not exist"}
+    return user.id
 
 def get_all_users():
     return User.query.all()

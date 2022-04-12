@@ -5,6 +5,7 @@ from App.controllers import (
     get_all_users,
     get_all_users_json,
     signup,
+    get_user_id
 )
 
 
@@ -34,5 +35,8 @@ def sign_up():
     userdata = request.get_json()
     return jsonify(signup(userdata['username'],userdata['email'], userdata['password']))
 
-
+@user_views.route('/user/<username>', methods=['GET'])
+@jwt_required()
+def user_id(username):
+    return jsonify(get_user_id(username)), 200
 

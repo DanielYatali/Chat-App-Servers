@@ -40,7 +40,7 @@ def get_conversations():
 @conversation_views.route('/<conversation_id>/messages', methods=['GET'])
 @jwt_required()
 def get_the_conversation_messages(conversation_id):
-    return jsonify(get_conversation_messages(conversation_id))
+    return jsonify(get_conversation_messages(conversation_id)), 200
 
 @conversation_views.route('/<user_id>/conversations', methods=['GET'])
 @jwt_required()
@@ -58,10 +58,10 @@ def add_user_to_conversation():
     data = request.get_json()
     return jsonify(join_conversation(data['user_id'], data['conversation_id']))
 
-@conversation_views.route('/conversation/<sender_id>/<receiver_id>', methods=['GET'])
+@conversation_views.route('/conversation/<receiver_id>', methods=['GET'])
 @jwt_required()
-def check_conversation(sender_id, receiver_id):
-    return jsonify(check_conversation_talk(sender_id, receiver_id))
+def check_conversation(receiver_id):
+    return jsonify(check_conversation_talk(current_identity, receiver_id))
 
 @conversation_views.route('/conversation/create/matches', methods=['POST'])
 @jwt_required()

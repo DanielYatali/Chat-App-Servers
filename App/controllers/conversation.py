@@ -14,7 +14,7 @@ def save_message(user, conversation_id, content, datetime):
     user_conversations = user.conversations
     for i in user_conversations:
         if i.id == conversation_id:
-            new_message = Message(sender_name=user.id, conversation_id=conversation_id, content = content, datetime=datetime)
+            new_message = Message(sender_name=user.username, conversation_id=conversation_id, content = content, datetime=datetime)
             db.session.add(new_message)
             conversation.messages.append(new_message)
             db.session.commit()
@@ -26,8 +26,7 @@ def save_message(user, conversation_id, content, datetime):
     }
 
 #This function checks if two users have a chat together if they don't then a new private group will be created for them to chat
-def check_conversation_talk(sender_id, receiver_id):
-    sender = User.query.get(sender_id)
+def check_conversation_talk(sender, receiver_id):
     receiver = User.query.get(receiver_id)
     if not sender or not receiver:
         return {"message": "one user does not exist"}
@@ -40,7 +39,7 @@ def check_conversation_talk(sender_id, receiver_id):
         db.session.commit()
 
         #add both users to conversation
-        join_conversation(sender_id, new_conversation.id)
+        join_conversation(sender.id, new_conversation.id)
         join_conversation(receiver_id, new_conversation.id)
         return new_conversation.toDict()
     return conversation.toDict()
@@ -133,7 +132,7 @@ def join_conversation(user_id, conversation_id):
 
 def create_matches_coversations(user, matches):
     for match in matches: 
-        check_conversation_talk(user.id, match)
+        check_conversation_talk(user, match)
     return {"message": "conversations created"}
 
 #Get all user's current conversations to be displayed on the side bar.

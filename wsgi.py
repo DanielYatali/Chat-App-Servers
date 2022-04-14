@@ -1,6 +1,4 @@
 import click
-from flask import Flask
-from flask.cli import with_appcontext
 from App.controllers.user_info import create_bot, create_user_info
 
 from App.database import create_db
@@ -199,5 +197,5 @@ def create_bots():
         ]
         
     for bot in bots:
-        # create_user(bot['first_name'], bot['email'], "pass")
+        create_user(bot['first_name'], bot['email'], "pass")
         create_user_info(bot)

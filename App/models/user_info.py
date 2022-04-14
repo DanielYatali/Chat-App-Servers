@@ -1,5 +1,3 @@
-from email.policy import default
-from turtle import st
 from App.database import db
 
 class User_info(db.Model):

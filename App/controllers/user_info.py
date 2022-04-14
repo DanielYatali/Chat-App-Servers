@@ -49,10 +49,16 @@ def get_user_info(user_id):
         }
     if not user.user_info:
         return{
-            "message": "user_info does not exist"
+            "message": "user_info does not exist",
+            "user_id": user_id
         }
     return user.user_info.toDict()
-
+def create_update_user_info(user, user_data):
+    if not user.user_info:
+        return create_user_info(user_data)
+    else:
+        return update_user_info(user_data)
+        
 def update_user_info(user_data):
     old_user = User.query.get(user_data['user_id'])
     if not old_user:

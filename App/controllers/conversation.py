@@ -34,7 +34,7 @@ def check_conversation_talk(sender, receiver_id):
     convo_name2 = receiver.username +'+' + sender.username
     conversation = Conversation.query.filter((Conversation.conversation_name == convo_name1) | (Conversation.conversation_name == convo_name2)).first()
     if not conversation:
-        new_conversation = Conversation(conversation_name=convo_name1, private= True)
+        new_conversation = Conversation(conversation_name=convo_name1, private= True, photo = "none", criteria="none")
         db.session.add(new_conversation)
         db.session.commit()
 
@@ -45,14 +45,14 @@ def check_conversation_talk(sender, receiver_id):
     return conversation.toDict()
 
 
-def create_conversation(conversation_name, private):
+def create_conversation(conversation_name, private, photo, criteria):
     conversation = Conversation.query.filter_by(conversation_name = conversation_name).first()
     if conversation:
         return {
             "message": "conversation already exists"
             }
 
-    new_conversation = Conversation(conversation_name=conversation_name, private =private)
+    new_conversation = Conversation(conversation_name=conversation_name, private=private, photo= photo, criteria= criteria)
     db.session.add(new_conversation)
     db.session.commit()
     return {

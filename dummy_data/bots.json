@@ -1,0 +1,1599 @@
+[
+  {
+    "user_id": 1,
+    "first_name": "Xavier",
+    "last_name": "Joseph",
+    "email": "xaviP@gmail.com",
+    "country": "Trinidad",
+    "city": "Mayaro",
+    "about": "I like to swim",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Food & Agriculture",
+    "major": "BSc Agribusiness (Major)",
+    "movie": "Comedy",
+    "music": "I hate music",
+    "photo": "https://i.imgur.com/m6wkD7s.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "Xavier3",
+        "twitter": "Xman21"
+      }
+    }
+  },
+
+  {
+    "user_id": 2,
+    "first_name": "Julia",
+    "last_name": "Michaels",
+    "email": "juli@gmail.com",
+    "country": "Trinidad",
+    "city": "Port of Spain",
+    "about": "I like to travel",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Food & Agriculture",
+    "major": "BSc Agricultural Extension (Major)",
+    "movie": "Romance",
+    "music": "I hate music",
+    "photo": "https://i.imgur.com/jCgREut.png",
+    "staying_in": "going out",
+    "sport": "Basketball",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "Julimango8",
+        "twitter": "JuliaM"
+      }
+    }
+  },
+
+  {
+    "user_id": 3,
+    "first_name": "Reece",
+    "last_name": "James",
+    "email": "rjames@gmail.com",
+    "country": "Trinidad",
+    "city": "Curepe",
+    "about": "I enjoy long walks on the beach",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Food & Agriculture",
+    "major": "BSc Agricultural Extension (Major)",
+    "movie": "Romance",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/mN4xWiw.png",
+    "staying_in": "going out",
+    "sport": "Cricket",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "Jman69",
+        "twitter": "ReeceJ0#0"
+      }
+    }
+  },
+
+  {
+    "user_id": 4,
+    "first_name": "Alex",
+    "last_name": "Rage",
+    "email": "profighter@gmail.com",
+    "country": "Trinidad",
+    "city": "Penal",
+    "about": "I like to go to the movies",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Humanities & Education",
+    "major": "BA Theology",
+    "movie": "Action",
+    "music": "Dancehall",
+    "photo": "https://i.imgur.com/Y5OuGGL.png",
+    "staying_in": "going out",
+    "sport": "My sport is not here!",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "C3BOSS5",
+        "twitter": "C3monster"
+      }
+    }
+  },
+  {
+    "user_id": 5,
+    "first_name": "Jerod",
+    "last_name": "Griffith",
+    "email": "griff@gmail.com",
+    "country": "Trindad",
+    "city": "Freeport",
+    "about": "I like space and technology",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Enineering",
+    "major": "BSc Mechanical Engineering",
+    "movie": "Horror",
+    "music": "Soca",
+    "photo": "https://i.imgur.com/svtPg5E.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "j_griff",
+        "twitter": "weoutside@01"
+      }
+    }
+  },
+
+  {
+    "user_id": 6,
+    "first_name": "Anthony",
+    "last_name": "Bernard",
+    "email": "abernard@gmail.com",
+    "country": "Trindad",
+    "city": "Cunupia",
+    "about": "I like playing videogames",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Enineering",
+    "major": "BSc Mechanical Engineering",
+    "movie": "Romance",
+    "music": "Dancehall",
+    "photo": "https://i.imgur.com/gb6a2Jn.png",
+    "staying_in": "staying in",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "anthony_12",
+        "twitter": "aBernard@12"
+      }
+    }
+  },
+
+  {
+    "user_id": 7,
+    "first_name": "Daniel",
+    "last_name": "Bernard",
+    "email": "dbernard@gmail.com",
+    "country": "Trindad",
+    "city": "Cunupia",
+    "about": "I like cars",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Enineering",
+    "major": "BSc Civil Engineering",
+    "movie": "Comedy",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/N5R78GL.png",
+    "staying_in": "going out",
+    "sport": "My sport is not here!",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "dannyBoi#1",
+        "twitter": "dBernard@#$"
+      }
+    }
+  },
+
+  {
+    "user_id": 8,
+    "first_name": "Samir",
+    "last_name": "Hosein",
+    "email": "srh214@gmail.com",
+    "country": "Trinidad",
+    "city": "Chase Village",
+    "about": "I like table tennis",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Enineering",
+    "major": "BSc Civil Engineering",
+    "movie": "Horror",
+    "music": "Classical",
+    "photo": "https://i.imgur.com/X3fFcU7.png",
+    "staying_in": "going out",
+    "sport": "My sport is not here!",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "samir214",
+        "twitter": "srh214"
+      }
+    }
+  },
+
+  {
+    "user_id": 9,
+    "first_name": "Kaleb",
+    "last_name": "Chotai",
+    "email": "dBuddy@gmail.com",
+    "country": "Trinidad",
+    "city": "Freeport",
+    "about": "I like to play Steelpan",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Medical Sciences",
+    "major": "DR Medicine & Bachelor of Surgery (MBBS)",
+    "movie": "Romance",
+    "music": "I like everything",
+    "photo": "https://i.imgur.com/FHzntR4.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "lebowski",
+        "twitter": "dbuddy15"
+      }
+    }
+  },
+
+  {
+    "user_id": 10,
+    "first_name": "Cory",
+    "last_name": "Achee",
+    "email": "cachee@gmail.com",
+    "country": "Trinidad",
+    "city": "Chaguanas",
+    "about": "I like to go to the gym",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Medical Sciences",
+    "major": "DR Medicine & Bachelor of Surgery (MBBS)",
+    "movie": "Aimation",
+    "music": "Dancehall",
+    "photo": "https://i.imgur.com/qLSYQPn.png",
+    "staying_in": "going out",
+    "sport": "Cricket",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "yuhboi@cory",
+        "twitter": "dbo$$cory"
+      }
+    }
+  },
+
+  {
+    "user_id": 11,
+    "first_name": "Kavir",
+    "last_name": "David",
+    "email": "kjd@gmail.com",
+    "country": "Trinidad",
+    "city": "Caroni",
+    "about": "I like to go to work out",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Medical Sciences",
+    "major": "BSc Pharmacy",
+    "movie": "Action",
+    "music": "I hate music",
+    "photo": "https://i.imgur.com/JR8SQu8.png",
+    "staying_in": "going out",
+    "sport": "Basketball",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "kjd3212",
+        "twitter": "kavirJdavid"
+      }
+    }
+  },
+
+  {
+    "user_id": 12,
+    "first_name": "Barry",
+    "last_name": "Ali",
+    "email": "barry@gmail.com",
+    "country": "Trinidad",
+    "city": "Chaguanas",
+    "about": "I am a quiet person",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Medical Sciences",
+    "major": "BSc Pharmacy",
+    "movie": "Romance",
+    "music": "Soca",
+    "photo": "https://i.imgur.com/0oZSBdS.png",
+    "staying_in": "staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "barry90",
+        "twitter": "bAli%"
+      }
+    }
+  },
+
+  {
+    "user_id": 13,
+    "first_name": "Sally",
+    "last_name": "Pretapsingh",
+    "email": "sallyP@gmail.com",
+    "country": "Trinidad",
+    "city": "San Fernando",
+    "about": "I enjoy the outdoors",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Food & Agriculture",
+    "major": "BSc Agribusiness (Major)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/FsE9SdK.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "sallyP",
+        "twitter": "sPretapsingh"
+      }
+    }
+  },
+
+  {
+    "user_id": 14,
+    "first_name": "Johnathon",
+    "last_name": "Joseph",
+    "email": "xaviP@gmail.com",
+    "country": "Trinidad",
+    "city": "Mayaro",
+    "about": "I like to swim",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Food & Agriculture",
+    "major": "BSc Agribusiness (Major)",
+    "movie": "Comedy",
+    "music": "I hate music",
+    "photo": "https://i.imgur.com/m6wkD7s.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "Xavier3",
+        "twitter": "Xman21"
+      }
+    }
+  },
+
+  {
+    "user_id": 15,
+    "first_name": "Julia",
+    "last_name": "Michaels",
+    "email": "juli@gmail.com",
+    "country": "Trinidad",
+    "city": "Port of Spain",
+    "about": "I like to travel",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Food & Agriculture",
+    "major": "BSc Agricultural Extension (Major)",
+    "movie": "Romance",
+    "music": "I hate music",
+    "photo": "https://i.imgur.com/jCgREut.png",
+    "staying_in": "going out",
+    "sport": "Basketball",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "Julimango8",
+        "twitter": "JuliaM"
+      }
+    }
+  },
+
+  {
+    "user_id": 16,
+    "first_name": "Reece",
+    "last_name": "James",
+    "email": "rjames@gmail.com",
+    "country": "Trinidad",
+    "city": "Curepe",
+    "about": "I enjoy long walks on the beach",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Food & Agriculture",
+    "major": "BSc Agricultural Extension (Major)",
+    "movie": "Romance",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/mN4xWiw.png",
+    "staying_in": "going out",
+    "sport": "Cricket",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "Jman69",
+        "twitter": "ReeceJ0#0"
+      }
+    }
+  },
+
+  {
+    "user_id": 17,
+    "first_name": "Alex",
+    "last_name": "Rage",
+    "email": "profighter@gmail.com",
+    "country": "Trinidad",
+    "city": "Penal",
+    "about": "I like to go to the movies",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Humanities & Education",
+    "major": "BA Theology",
+    "movie": "Action",
+    "music": "Dancehall",
+    "photo": "https://i.imgur.com/Y5OuGGL.png",
+    "staying_in": "going out",
+    "sport": "My sport is not here!",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "C3BOSS5",
+        "twitter": "C3monster"
+      }
+    }
+  },
+
+  {
+    "user_id": 18,
+    "first_name": "Nicolette",
+    "last_name": "Dindial",
+    "email": "ndidni@gmail.com",
+    "country": "Trinidad",
+    "city": "Rio Claro",
+    "about": "I like to watch Anime",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Humanities & Education",
+    "major": "BA Theology",
+    "movie": "Horror",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/FHzntR4.png",
+    "staying_in": "staying in",
+    "sport": "My sport is not here!",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "NicoletteD2",
+        "twitter": "DindialN$1"
+      }
+    }
+  },
+
+  {
+    "user_id": 19,
+    "first_name": "Samantha",
+    "last_name": "Lal",
+    "email": "samsam@gmail.com",
+    "country": "Trinidad",
+    "city": "San Juan",
+    "about": "I like astrology",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Humanities & Education",
+    "major": "BA Film (Major / Special)",
+    "movie": "Action",
+    "music": "Classical",
+    "photo": "https://i.imgur.com/qsoAWbh.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "lalalalalal",
+        "twitter": "lal2002"
+      }
+    }
+  },
+
+  {
+    "user_id": 20,
+    "first_name": "Bobby",
+    "last_name": "Smith",
+    "email": "bobbyhead@gmail.com",
+    "country": "Trinidad",
+    "city": "Chaguaramas",
+    "about": "I enjoy eating Bobby",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Humanities & Education",
+    "major": "BA Film (Major / Special)",
+    "movie": "Animation",
+    "music": "Horror",
+    "photo": "https://i.imgur.com/EIetITH.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "bobbyheadboss00",
+        "twitter": "bobbyS!"
+      }
+    }
+  },
+
+  {
+    "user_id": 21,
+    "first_name": "Akash",
+    "last_name": "Rampaul",
+    "email": "a_rampaul@yahoo.com",
+    "country": "Trinidad",
+    "city": "Rio Claro",
+    "about": "Lookin Fuh Frens",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Law",
+    "major": "LLB Law ",
+    "movie": "Action",
+    "music": "Soca",
+    "photo": "https://i.imgur.com/pef2wZz.png",
+    "staying_in": "staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "arampaul",
+        "twitter": "lonelyboi72"
+      }
+    }
+  },
+
+  {
+    "user_id": 22,
+    "first_name": "Jamal",
+    "last_name": "Higgins",
+    "email": "jhiggins@gmail.com",
+    "country": "Trinidad",
+    "city": "San Fernando",
+    "about": "Jus bored and whatnot",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Law",
+    "major": "LLB Law",
+    "movie": "Comedy",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/X3fFcU7.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "jhigginsspam",
+        "twitter": "jstar22"
+      }
+    }
+  },
+
+  {
+    "user_id": 23,
+    "first_name": "Sarika",
+    "last_name": "Maharaj",
+    "email": "sarikaschool@gmail.com",
+    "country": "Trinidad",
+    "city": "Chaguanas",
+    "about": "I like long walks on the beach",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Law",
+    "major": "LLB Law",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/svtPg5E.png",
+    "staying_in": "Staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "sarikaxoxo",
+        "twitter": "simplysarika"
+      }
+    }
+  },
+
+  {
+    "user_id": 24,
+    "first_name": "Isaiah",
+    "last_name": "John",
+    "email": "i_john@gmail.com",
+    "country": "Trinidad",
+    "city": "Point Fortin",
+    "about": "Looking to meet cool new people",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Law",
+    "major": "LLB Law",
+    "movie": "Horror",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/N5R78GL.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "isaiah23",
+        "twitter": "isaiahupdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 25,
+    "first_name": "Zachary",
+    "last_name": "Mahabir",
+    "email": "zachMahabir@gmail.com",
+    "country": "Tobago",
+    "city": "Scarborough",
+    "about": "I be lonely dawg",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Science and Technology",
+    "major": "BSc Computer Science (Major)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/qsoAWbh.png",
+    "staying_in": "staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "zachattack",
+        "twitter": "zachandfriends"
+      }
+    }
+  },
+
+  {
+    "user_id": 26,
+    "first_name": "Jessica",
+    "last_name": "Smith",
+    "email": "jsmithschool@gmail.com",
+    "country": "Trinidad",
+    "city": "St. Augustine",
+    "about": "Interested in meeting new people",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Science and Technology",
+    "major": "BSc Computer Science (Major)",
+    "movie": "Horror",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/yVNsQyB.jpg",
+    "staying_in": "going out",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "jessicurrrr",
+        "twitter": "jessicathoughts"
+      }
+    }
+  },
+
+  {
+    "user_id": 27,
+    "first_name": "Cory",
+    "last_name": "Inthehouse",
+    "email": "cory_inthe@gmail.com",
+    "country": "Trinidad",
+    "city": "Mayaro",
+    "about": "Salt Life",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Science and Technology",
+    "major": "BSc Information Technology (Special)",
+    "movie": "Animation",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/m6wkD7s.png",
+    "staying_in": "going out",
+    "sport": "Cricket",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "coryconfidential",
+        "twitter": "coryupdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 28,
+    "first_name": "Marc",
+    "last_name": "Anthony",
+    "email": "m_anthony@gmail.com",
+    "country": "Trinidad",
+    "city": "Arima",
+    "about": "I rell tired",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Science and Technology",
+    "major": "BSc Information Technology (Special)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/mN4xWiw.png",
+    "staying_in": "staying in",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "marcmonster72",
+        "twitter": "marcanthony64"
+      }
+    }
+  },
+
+  {
+    "user_id": 29,
+    "first_name": "Tom",
+    "last_name": "Shelby",
+    "email": "peakyblinders@gmail.com",
+    "country": "Trinidad",
+    "city": "Curepe",
+    "about": "Dy Zess",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Social Sciences",
+    "major": "BSc Accounting (Special)",
+    "movie": "Comedy",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/Y5OuGGL.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "tshelby32",
+        "twitter": "tshelbyupdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 30,
+    "first_name": "Bradley",
+    "last_name": "Jacob",
+    "email": "bradleybusiness@gmail.com",
+    "country": "Trinidad",
+    "city": "Princes Town",
+    "about": "Just here for the vibe",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Social Sciences",
+    "major": "BSc Accounting (Special)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/jCgREut.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "bradleybai76",
+        "twitter": "radbrad"
+      }
+    }
+  },
+
+  {
+    "user_id": 31,
+    "first_name": "Kendra",
+    "last_name": "Cho",
+    "email": "kcho@gmail.com",
+    "country": "Trinidad",
+    "city": "Port of Spain",
+    "about": "I like anime <3",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Social Sciences",
+    "major": "BSc International Tourism Management (Special)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/EIetITH.png",
+    "staying_in": "staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "kendrastic32",
+        "twitter": "kendranews"
+      }
+    }
+  },
+
+  {
+    "user_id": 32,
+    "first_name": "Keesha",
+    "last_name": "Jonas",
+    "email": "keejo@gmail.com",
+    "country": "Trinidad",
+    "city": "Arima",
+    "about": "Need new friends",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Social Sciences",
+    "major": "BSc International Tourism Management (Special)",
+    "movie": "Comedy",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/pef2wZz.png",
+    "staying_in": "going out",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "keeshaspam",
+        "twitter": "keeshurrr"
+      }
+    }
+  },
+
+  {
+    "user_id": 33,
+    "first_name": "Jonathon",
+    "last_name": "Ramkissoon",
+    "email": "jramkissoon@gmail.com",
+    "country": "Trinidad",
+    "city": "Couva",
+    "about": "Friends made me join this app smh",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Sport",
+    "major": "BSc Sport Coaching",
+    "movie": "Animation",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/0oZSBdS.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "jram76",
+        "twitter": "jonnyupdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 34,
+    "first_name": "Sylvan",
+    "last_name": "Smith",
+    "email": "ss_sport@gmail.com",
+    "country": "Trinidad",
+    "city": "New Grant",
+    "about": "Need friends for football",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Sport",
+    "major": "BSc Sport Coaching",
+    "movie": "Comedy",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/svtPg5E.png",
+    "staying_in": "staying in",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "sylvan34",
+        "twitter": "sylvantweet23"
+      }
+    }
+  },
+
+  {
+    "user_id": 35,
+    "first_name": "Anastasia",
+    "last_name": "John",
+    "email": "anastasiaschool@gmail.com",
+    "country": "Trinidad",
+    "city": "Rio Claro",
+    "about": "Looking for cool people to hang out with",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Sport",
+    "major": "BSc Sport Kinetics",
+    "movie": "Horror",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/m6wkD7s.png",
+    "staying_in": "going out",
+    "sport": "Cricket",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "annie22",
+        "twitter": "AnnieUpdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 36,
+    "first_name": "Ibrahim",
+    "last_name": "Ali",
+    "email": "ibra_ali@gmail.com",
+    "country": "Trinidad",
+    "city": "Tabaquite",
+    "about": "Love football bad",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Sport",
+    "major": "BSc Sport Kinetics",
+    "movie": "Animation",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/Y5OuGGL.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "ibra_ali87",
+        "twitter": "ibrahimInternational"
+      }
+    }
+  },
+  {
+    "user_id": 37,
+    "first_name": "Jerod",
+    "last_name": "Griffith",
+    "email": "griff@gmail.com",
+    "country": "Trindad",
+    "city": "Freeport",
+    "about": "I like space and technology",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Enineering",
+    "major": "BSc Mechanical Engineering",
+    "movie": "Horror",
+    "music": "Soca",
+    "photo": "https://i.imgur.com/svtPg5E.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "j_griff",
+        "twitter": "weoutside@01"
+      }
+    }
+  },
+
+  {
+    "user_id": 38,
+    "first_name": "Anthony",
+    "last_name": "Bernard",
+    "email": "abernard@gmail.com",
+    "country": "Trindad",
+    "city": "Cunupia",
+    "about": "I like playing videogames",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Enineering",
+    "major": "BSc Mechanical Engineering",
+    "movie": "Romance",
+    "music": "Dancehall",
+    "photo": "https://i.imgur.com/gb6a2Jn.png",
+    "staying_in": "staying in",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "anthony_12",
+        "twitter": "aBernard@12"
+      }
+    }
+  },
+
+  {
+    "user_id": 39,
+    "first_name": "Daniel",
+    "last_name": "Bernard",
+    "email": "dbernard@gmail.com",
+    "country": "Trindad",
+    "city": "Cunupia",
+    "about": "I like cars",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Enineering",
+    "major": "BSc Civil Engineering",
+    "movie": "Comedy",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/N5R78GL.png",
+    "staying_in": "going out",
+    "sport": "My sport is not here!",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "dannyBoi#1",
+        "twitter": "dBernard@#$"
+      }
+    }
+  },
+
+  {
+    "user_id": 40,
+    "first_name": "Samir",
+    "last_name": "Hosein",
+    "email": "srh214@gmail.com",
+    "country": "Trinidad",
+    "city": "Chase Village",
+    "about": "I like table tennis",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Enineering",
+    "major": "BSc Civil Engineering",
+    "movie": "Horror",
+    "music": "Classical",
+    "photo": "https://i.imgur.com/X3fFcU7.png",
+    "staying_in": "going out",
+    "sport": "My sport is not here!",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "samir214",
+        "twitter": "srh214"
+      }
+    }
+  },
+
+  {
+    "user_id": 50,
+    "first_name": "Kaleb",
+    "last_name": "Chotai",
+    "email": "dBuddy@gmail.com",
+    "country": "Trinidad",
+    "city": "Freeport",
+    "about": "I like to play Steelpan",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Medical Sciences",
+    "major": "DR Medicine & Bachelor of Surgery (MBBS)",
+    "movie": "Romance",
+    "music": "I like everything",
+    "photo": "https://i.imgur.com/FHzntR4.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "lebowski",
+        "twitter": "dbuddy15"
+      }
+    }
+  },
+
+  {
+    "user_id": 51,
+    "first_name": "Cory",
+    "last_name": "Achee",
+    "email": "cachee@gmail.com",
+    "country": "Trinidad",
+    "city": "Chaguanas",
+    "about": "I like to go to the gym",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Medical Sciences",
+    "major": "DR Medicine & Bachelor of Surgery (MBBS)",
+    "movie": "Aimation",
+    "music": "Dancehall",
+    "photo": "https://i.imgur.com/qLSYQPn.png",
+    "staying_in": "going out",
+    "sport": "Cricket",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "yuhboi@cory",
+        "twitter": "dbo$$cory"
+      }
+    }
+  },
+
+  {
+    "user_id": 52,
+    "first_name": "Kavir",
+    "last_name": "David",
+    "email": "kjd@gmail.com",
+    "country": "Trinidad",
+    "city": "Caroni",
+    "about": "I like to go to work out",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Medical Sciences",
+    "major": "BSc Pharmacy",
+    "movie": "Action",
+    "music": "I hate music",
+    "photo": "https://i.imgur.com/JR8SQu8.png",
+    "staying_in": "going out",
+    "sport": "Basketball",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "kjd3212",
+        "twitter": "kavirJdavid"
+      }
+    }
+  },
+
+  {
+    "user_id": 53,
+    "first_name": "Barry",
+    "last_name": "Ali",
+    "email": "barry@gmail.com",
+    "country": "Trinidad",
+    "city": "Chaguanas",
+    "about": "I am a quiet person",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Medical Sciences",
+    "major": "BSc Pharmacy",
+    "movie": "Romance",
+    "music": "Soca",
+    "photo": "https://i.imgur.com/0oZSBdS.png",
+    "staying_in": "staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "barry90",
+        "twitter": "bAli%"
+      }
+    }
+  },
+
+  {
+    "user_id": 54,
+    "first_name": "Sally",
+    "last_name": "Pretapsingh",
+    "email": "sallyP@gmail.com",
+    "country": "Trinidad",
+    "city": "San Fernando",
+    "about": "I enjoy the outdoors",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Food & Agriculture",
+    "major": "BSc Agribusiness (Major)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/FsE9SdK.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "sallyP",
+        "twitter": "sPretapsingh"
+      }
+    }
+  },
+
+  {
+    "user_id": 55,
+    "first_name": "Nicolette",
+    "last_name": "Dindial",
+    "email": "ndidni@gmail.com",
+    "country": "Trinidad",
+    "city": "Rio Claro",
+    "about": "I like to watch Anime",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Humanities & Education",
+    "major": "BA Theology",
+    "movie": "Horror",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/FHzntR4.png",
+    "staying_in": "staying in",
+    "sport": "My sport is not here!",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "NicoletteD2",
+        "twitter": "DindialN$1"
+      }
+    }
+  },
+
+  {
+    "user_id": 56,
+    "first_name": "Samantha",
+    "last_name": "Lal",
+    "email": "samsam@gmail.com",
+    "country": "Trinidad",
+    "city": "San Juan",
+    "about": "I like astrology",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Humanities & Education",
+    "major": "BA Film (Major / Special)",
+    "movie": "Action",
+    "music": "Classical",
+    "photo": "https://i.imgur.com/qsoAWbh.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "lalalalalal",
+        "twitter": "lal2002"
+      }
+    }
+  },
+
+  {
+    "user_id": 57,
+    "first_name": "Bobby",
+    "last_name": "Smith",
+    "email": "bobbyhead@gmail.com",
+    "country": "Trinidad",
+    "city": "Chaguaramas",
+    "about": "I enjoy eating Bobby",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Humanities & Education",
+    "major": "BA Film (Major / Special)",
+    "movie": "Animation",
+    "music": "Horror",
+    "photo": "https://i.imgur.com/EIetITH.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "bobbyheadboss00",
+        "twitter": "bobbyS!"
+      }
+    }
+  },
+
+  {
+    "user_id": 58,
+    "first_name": "Akash",
+    "last_name": "Rampaul",
+    "email": "a_rampaul@yahoo.com",
+    "country": "Trinidad",
+    "city": "Rio Claro",
+    "about": "Lookin Fuh Frens",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Law",
+    "major": "LLB Law ",
+    "movie": "Action",
+    "music": "Soca",
+    "photo": "https://i.imgur.com/pef2wZz.png",
+    "staying_in": "staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "arampaul",
+        "twitter": "lonelyboi72"
+      }
+    }
+  },
+
+  {
+    "user_id": 59,
+    "first_name": "Jamal",
+    "last_name": "Higgins",
+    "email": "jhiggins@gmail.com",
+    "country": "Trinidad",
+    "city": "San Fernando",
+    "about": "Jus bored and whatnot",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Law",
+    "major": "LLB Law",
+    "movie": "Comedy",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/X3fFcU7.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "jhigginsspam",
+        "twitter": "jstar22"
+      }
+    }
+  },
+
+  {
+    "user_id": 60,
+    "first_name": "Sarika",
+    "last_name": "Maharaj",
+    "email": "sarikaschool@gmail.com",
+    "country": "Trinidad",
+    "city": "Chaguanas",
+    "about": "I like long walks on the beach",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Law",
+    "major": "LLB Law",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/svtPg5E.png",
+    "staying_in": "Staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "sarikaxoxo",
+        "twitter": "simplysarika"
+      }
+    }
+  },
+
+  {
+    "user_id": 61,
+    "first_name": "Isaiah",
+    "last_name": "John",
+    "email": "i_john@gmail.com",
+    "country": "Trinidad",
+    "city": "Point Fortin",
+    "about": "Looking to meet cool new people",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Law",
+    "major": "LLB Law",
+    "movie": "Horror",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/N5R78GL.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "isaiah23",
+        "twitter": "isaiahupdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 62,
+    "first_name": "Zachary",
+    "last_name": "Mahabir",
+    "email": "zachMahabir@gmail.com",
+    "country": "Tobago",
+    "city": "Scarborough",
+    "about": "I be lonely dawg",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Science and Technology",
+    "major": "BSc Computer Science (Major)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/qsoAWbh.png",
+    "staying_in": "staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "zachattack",
+        "twitter": "zachandfriends"
+      }
+    }
+  },
+
+  {
+    "user_id": 63,
+    "first_name": "Jessica",
+    "last_name": "Smith",
+    "email": "jsmithschool@gmail.com",
+    "country": "Trinidad",
+    "city": "St. Augustine",
+    "about": "Interested in meeting new people",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Science and Technology",
+    "major": "BSc Computer Science (Major)",
+    "movie": "Horror",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/yVNsQyB.jpg",
+    "staying_in": "going out",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "jessicurrrr",
+        "twitter": "jessicathoughts"
+      }
+    }
+  },
+
+  {
+    "user_id": 64,
+    "first_name": "Cory",
+    "last_name": "Inthehouse",
+    "email": "cory_inthe@gmail.com",
+    "country": "Trinidad",
+    "city": "Mayaro",
+    "about": "Salt Life",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Science and Technology",
+    "major": "BSc Information Technology (Special)",
+    "movie": "Animation",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/m6wkD7s.png",
+    "staying_in": "going out",
+    "sport": "Cricket",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "coryconfidential",
+        "twitter": "coryupdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 65,
+    "first_name": "Marc",
+    "last_name": "Anthony",
+    "email": "m_anthony@gmail.com",
+    "country": "Trinidad",
+    "city": "Arima",
+    "about": "I rell tired",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Science and Technology",
+    "major": "BSc Information Technology (Special)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/mN4xWiw.png",
+    "staying_in": "staying in",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "marcmonster72",
+        "twitter": "marcanthony64"
+      }
+    }
+  },
+
+  {
+    "user_id": 66,
+    "first_name": "Tom",
+    "last_name": "Shelby",
+    "email": "peakyblinders@gmail.com",
+    "country": "Trinidad",
+    "city": "Curepe",
+    "about": "Dy Zess",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Social Sciences",
+    "major": "BSc Accounting (Special)",
+    "movie": "Comedy",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/Y5OuGGL.png",
+    "staying_in": "going out",
+    "sport": "Tennis",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "tshelby32",
+        "twitter": "tshelbyupdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 67,
+    "first_name": "Bradley",
+    "last_name": "Jacob",
+    "email": "bradleybusiness@gmail.com",
+    "country": "Trinidad",
+    "city": "Princes Town",
+    "about": "Just here for the vibe",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Social Sciences",
+    "major": "BSc Accounting (Special)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/jCgREut.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "bradleybai76",
+        "twitter": "radbrad"
+      }
+    }
+  },
+
+  {
+    "user_id": 68,
+    "first_name": "Kendra",
+    "last_name": "Cho",
+    "email": "kcho@gmail.com",
+    "country": "Trinidad",
+    "city": "Port of Spain",
+    "about": "I like anime <3",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Social Sciences",
+    "major": "BSc International Tourism Management (Special)",
+    "movie": "Animation",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/EIetITH.png",
+    "staying_in": "staying in",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "kendrastic32",
+        "twitter": "kendranews"
+      }
+    }
+  },
+
+  {
+    "user_id": 69,
+    "first_name": "Keesha",
+    "last_name": "Jonas",
+    "email": "keejo@gmail.com",
+    "country": "Trinidad",
+    "city": "Arima",
+    "about": "Need new friends",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Social Sciences",
+    "major": "BSc International Tourism Management (Special)",
+    "movie": "Comedy",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/pef2wZz.png",
+    "staying_in": "going out",
+    "sport": "I don't like sports",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "keeshaspam",
+        "twitter": "keeshurrr"
+      }
+    }
+  },
+
+  {
+    "user_id": 70,
+    "first_name": "Jonathon",
+    "last_name": "Ramkissoon",
+    "email": "jramkissoon@gmail.com",
+    "country": "Trinidad",
+    "city": "Couva",
+    "about": "Friends made me join this app smh",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Sport",
+    "major": "BSc Sport Coaching",
+    "movie": "Animation",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/0oZSBdS.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "jram76",
+        "twitter": "jonnyupdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 71,
+    "first_name": "Sylvan",
+    "last_name": "Smith",
+    "email": "ss_sport@gmail.com",
+    "country": "Trinidad",
+    "city": "New Grant",
+    "about": "Need friends for football",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Sport",
+    "major": "BSc Sport Coaching",
+    "movie": "Comedy",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/svtPg5E.png",
+    "staying_in": "staying in",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "sylvan34",
+        "twitter": "sylvantweet23"
+      }
+    }
+  },
+
+  {
+    "user_id": 72,
+    "first_name": "Anastasia",
+    "last_name": "John",
+    "email": "anastasiaschool@gmail.com",
+    "country": "Trinidad",
+    "city": "Rio Claro",
+    "about": "Looking for cool people to hang out with",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Sport",
+    "major": "BSc Sport Kinetics",
+    "movie": "Horror",
+    "music": "Pop",
+    "photo": "https://i.imgur.com/m6wkD7s.png",
+    "staying_in": "going out",
+    "sport": "Cricket",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "annie22",
+        "twitter": "AnnieUpdates"
+      }
+    }
+  },
+
+  {
+    "user_id": 73,
+    "first_name": "Ibrahim",
+    "last_name": "Ali",
+    "email": "ibra_ali@gmail.com",
+    "country": "Trinidad",
+    "city": "Tabaquite",
+    "about": "Love football bad",
+    "university": "University of the West Indies, St. Augustine",
+    "faculty": "Sport",
+    "major": "BSc Sport Kinetics",
+    "movie": "Animation",
+    "music": "Dance Hall",
+    "photo": "https://i.imgur.com/Y5OuGGL.png",
+    "staying_in": "going out",
+    "sport": "Football",
+    "bot": "bot",
+    "other_info": {
+      "socials": {
+        "instagram": "ibra_ali87",
+        "twitter": "ibrahimInternational"
+      }
+    }
+  }
+]

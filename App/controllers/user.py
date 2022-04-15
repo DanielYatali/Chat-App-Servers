@@ -1,4 +1,4 @@
-from App.models import User, message
+from App.models import User, message, user
 from App.database import db
 
 def get_user_id(username):
@@ -11,9 +11,17 @@ def get_all_users():
     return User.query.all()
 
 def create_user(username, email, password):
+    old_user = User.query.filter_by(username = username).first()
+    if old_user:
+        return {
+            "message": f"{username} taken "
+        }
     newuser = User(username=username, email=email, password=password)
     db.session.add(newuser)
     db.session.commit()
+    return{
+        "message": "user created"
+    }
 
 def get_all_users_json():
     users = User.query.all()

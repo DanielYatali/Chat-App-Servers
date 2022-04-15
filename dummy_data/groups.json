@@ -1,0 +1,111 @@
+[
+  {
+    "conversation_name": "UWI Dancehall Group",
+    "private": false,
+    "criteria": "Dancehall",
+    "photo": "https://i.imgur.com/I5JgiL9.jpeg"
+  },
+
+  {
+    "conversation_name": "UWI Soca Lovers",
+    "private": false,
+    "criteria": "Soca",
+    "photo": "https://i.imgur.com/Fsenn0d.jpeg"
+  },
+
+  {
+    "conversation_name": "UWI Pop Fans",
+    "private": false,
+    "criteria": "Pop",
+    "photo": "https://i.imgur.com/GMWU9ig.jpeg"
+  },
+
+  {
+    "conversation_name": "UWI Classical Fans",
+    "private": false,
+    "criteria": "Classical",
+    "photo": "https://i.imgur.com/uQmui8x.png"
+  },
+  {
+    "conversation_name": "UWI Action Movie Fans",
+    "private": false,
+    "criteria": "Action",
+    "photo": "https://cdn.onebauer.media/one/empire-images/features/5857b3431eed4b23059f64e7/enter-the-dragon-bruce-lee.jpg?format=jpg&quality=80&width=850&ratio=1-1&resize=aspectfit"
+  },
+
+  {
+    "conversation_name": "UWI Horror Lovers",
+    "private": false,
+    "criteria": "Horror",
+    "photo": "https://i.imgur.com/oXdpw70.jpeg"
+  },
+
+  {
+    "conversation_name": "UWI Romance Movie Fans",
+    "private": false,
+    "criteria": "Romance",
+    "photo": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/office-romance-1647275345.jpg?crop=0.930xw:1.00xh;0.0233xw,0&resize=980:*"
+  },
+
+  {
+    "conversation_name": "UWI Comedy Clowns",
+    "private": false,
+    "criteria": "Comedy",
+    "photo": "https://i.imgur.com/AYHlpqY.jpeg"
+  },
+
+  {
+    "conversation_name": "UWI Anime Lovers",
+    "private": false,
+    "criteria": "Animation",
+    "photo": "https://i.imgur.com/IemIQX4.jpeg"
+  },
+  {
+    "conversation_name": "UWI MEDICAL SCIENCES GROUP",
+    "private": false,
+    "criteria": "Medical Sciences",
+    "photo": "https://i.imgur.com/y6N3ukx.jpeg"
+  },
+
+  {
+    "conversation_name": "UWI Science & Technology GROUP",
+    "private": false,
+    "criteria": "Science & Technology",
+    "photo": "hhttps://i.imgur.com/HTm48iG.jpeg"
+  },
+
+  {
+    "conversation_name": "UWI Social Sciences GROUP",
+    "private": false,
+    "criteria": "Social Sciences",
+    "photo": "https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/Pictures/web/t/g/h/illustration_of_two_peoples_thought.jpg?itok=88h36GeZ"
+  },
+
+  {
+    "conversation_name": "UWI Engineering Students",
+    "private": false,
+    "criteria": "Engineering",
+    "photo": "https://i.imgur.com/d4p0Orx.jpeg"
+  },
+
+  {
+    "conversation_name": "UWI Food and Agri Students",
+    "private": false,
+    "criteria": "Food & Agriculture",
+    "photo": "https://i.imgur.com/mhMqnpf.jpeg"
+  },
+
+  {
+    "conversation_name": "UWI Humanities and Education Students",
+    "private": false,
+    "criteria": "Humanities and Education",
+    "photo": "https://us.123rf.com/450wm/lightfieldstudios/lightfieldstudios1903/lightfieldstudios190306033/118631872-beautiful-female-teacher-in-formal-wear-writing-in-notebook-and-looking-at-camera-in-classroom.jpg?ver=6"
+  },
+
+  {
+    "conversation_name": "UWI Law Students",
+    "private": false,
+    "criteria": "Law",
+    "photo": "https://media.istockphoto.com/photos/lawyer-working-in-office-law-and-justice-concept-picture-id1181406993?k=20&m=1181406993&s=612x612&w=0&h=_xHBbURmMIFnlDETBSGTZyjV08tU7stNxOey28SAVTM="
+  }
+]

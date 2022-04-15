@@ -30,7 +30,7 @@ def add_message():
 @jwt_required()
 def add_conversation():
     data = request.get_json();
-    return jsonify(create_conversation(data['conversation_name'], data['private']))
+    return jsonify(create_conversation(data['conversation_name'], data['private'], data['photo'], data['criteria']))
 
 @conversation_views.route('/conversations', methods=['GET'])
 def get_conversations():

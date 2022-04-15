@@ -7,19 +7,19 @@ def create_bot(user_data):
     user = User.query.get(user_data['user_id'])
     if not user:
         return{
-            "message": "user does not exist"
+            "message": f"{user_data['user_id']} does not exist"
         }
     if user.user_info:
         return{
-            "message": "user_info already exist"
+            "message": "bot already exist"
         }
-    new_user_info = User_info(user_id = user_data['user_id'],first_name=user_data['first_name'], last_name=user_data['last_name'], email = user_data['email'], country=user_data['country'], city = user_data['city'], university=user_data["university"],faculty=user_data['faculty'], major=user_data['major'],movie_type = user_data['movie'], music_type = user_data['music'], sport = user_data['sport'],about=user_data['about'], staying_in=user_data['staying_in'], bot=user_data['bot'], other_info= user_data['other_info'])
+    new_user_info = User_info(user_id = user_data['user_id'],first_name=user_data['first_name'], last_name=user_data['last_name'], email = user_data['email'], country=user_data['country'], city = user_data['city'], university=user_data["university"],faculty=user_data['faculty'], major=user_data['major'],movie_type = user_data['movie'], music_type = user_data['music'], sport = user_data['sport'],about=user_data['about'], staying_in=user_data['staying_in'], bot=True, other_info= user_data['other_info'], photo = user_data['photo'])
     db.session.add(new_user_info)
     user.user_info = new_user_info
 
     db.session.commit()
     return{
-        "message": "user info added"
+        "message": "bot info added"
     }
 
 def create_user_info(user_data):

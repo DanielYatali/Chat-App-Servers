@@ -1,4 +1,6 @@
+import json
 import click
+from App.controllers.user_info import create_bot
 # from App.controllers.user_info import create_bot, create_user_info
 
 from App.database import create_db
@@ -23,179 +25,19 @@ def create_user_command(username, email, password):
 def get_users():
     print(get_all_users_json())
 
-# @app.cli.command("create-bots")
-# def create_bots():
-#     bots = [
-#             {
-#             "user_id": 5,
-#             "first_name": "daniela",
-#             "last_name": "Jaohn",
-#             "email": "daa@gmail.com",
-#             "country": "Tobago",
-#             "city": "Mayaro",
-#             "about": "I like to fish",
-#             "university": "UWI 1",
-#             "faculty": "Law",
-#             "major": "Some Law Degree",
-#             "movie": "Animation",
-#             "music": "Dance Hall",
-#             "photo": "link",
-#             "staying_in": "going out",
-#             "sport" : "Football",
-#             "bot": "bot",
-#             "other_info": {
-#                 "socials":{
-#                     "instagram": "someaccount",
-#                     "twitter": "somethin1"
-#                 }
-#             }
-#                 },
-#               {
-#             "user_id": 6,
-#             "first_name": "has",
-#             "last_name": "John",
-#             "email": "has@gmail.com",
-#             "country": "Trinidad",
-#             "city": "Mayaro",
-#             "about": "I like to swim",
-#             "university": "UWI",
-#             "faculty": "FST",
-#             "major": "Computer Science",
-#             "movie": "Animation",
-#             "music": "Dance Hall",
-#             "photo": "link",
-#             "staying_in": "going out",
-#             "sport" : "Football",
-#             "bot": "bot",
-#             "other_info": {
-#                 "socials":{
-#                     "instagram": "someaccount",
-#                     "twitter": "somethin1"
-#                 }
-#             }
-#                 },
-#                   {
-#             "user_id": 7,
-#             "first_name": "harry",
-#             "last_name": "John",
-#             "email": "harry@gmail.com",
-#             "country": "Trinidad",
-#             "city": "Mayaro",
-#             "about": "I like to swim",
-#             "university": "UWI",
-#             "faculty": "Med Sci",
-#             "major": "Computer Science",
-#             "movie": "Animation",
-#             "music": "Dance Hall",
-#             "photo": "link",
-#             "staying_in": "going out",
-#             "sport" : "Football",
-#             "bot": "bot",
-#             "other_info": {
-#                 "socials":{
-#                     "instagram": "someaccount",
-#                     "twitter": "somethin1"
-#                 }
-#             }
-#                 },
-#                   {
-#             "user_id": 8,
-#             "first_name": "Ken",
-#             "last_name": "John",
-#             "email": "ken@gmail.com",
-#             "country": "Trinidad",
-#             "city": "Mayaro",
-#             "about": "I like to swim",
-#             "university": "UWI",
-#             "faculty": "FST",
-#             "major": "Computer Science",
-#             "movie": "Animation",
-#             "music": "Dance Hall",
-#             "photo": "link",
-#             "staying_in": "going out",
-#             "sport" : "Football",
-#             "bot": "bot",
-#             "other_info": {
-#                 "socials":{
-#                     "instagram": "someaccount",
-#                     "twitter": "somethin1"
-#                 }
-#             }
-#                 },
-#                   {
-#             "user_id": 9,
-#             "first_name": "Hats",
-#             "last_name": "John",
-#             "email": "Hats@gmail.com",
-#             "country": "Trinidad",
-#             "city": "Mayaro",
-#             "about": "I like to swim",
-#             "university": "UWI",
-#             "faculty": "FST",
-#             "major": "Computer Science",
-#             "movie": "Animation",
-#             "music": "Dance Hall",
-#             "photo": "link",
-#             "staying_in": "going out",
-#             "sport" : "Football",
-#             "bot": "bot",
-#             "other_info": {
-#                 "socials":{
-#                     "instagram": "someaccount",
-#                     "twitter": "somethin1"
-#                 }
-#             }
-#                 },
-#                   {
-#             "user_id": 10,
-#             "first_name": "Helllo",
-#             "last_name": "John",
-#             "email": "helllo@gmail.com",
-#             "country": "Trinidad",
-#             "city": "Mayaro",
-#             "about": "I like to swim",
-#             "university": "UWI",
-#             "faculty": "FST",
-#             "major": "Computer Science",
-#             "movie": "Animation",
-#             "music": "Dance Hall",
-#             "photo": "link",
-#             "staying_in": "going out",
-#             "sport" : "Football",
-#             "bot": "bot",
-#             "other_info": {
-#                 "socials":{
-#                     "instagram": "someaccount",
-#                     "twitter": "somethin1"
-#                 }
-#             }
-#                 },
-#                   {
-#             "user_id": 11,
-#             "first_name": "tired",
-#             "last_name": "John",
-#             "email": "tired@gmail.com",
-#             "country": "Trinidad",
-#             "city": "Mayaro",
-#             "about": "I like to swim",
-#             "university": "UWI",
-#             "faculty": "FST",
-#             "major": "Computer Science",
-#             "movie": "Animation",
-#             "music": "Dance Hall",
-#             "photo": "link",
-#             "staying_in": "going out",
-#             "sport" : "Football",
-#             "bot": "bot",
-#             "other_info": {
-#                 "socials":{
-#                     "instagram": "someaccount",
-#                     "twitter": "somethin1"
-#                 }
-#             }
-#                 },
-#         ]
-        
-#     for bot in bots:
-#         create_user(bot['first_name'], bot['email'], "pass")
-#         create_user_info(bot)
+@app.cli.command("create-bots")
+def create_bots():
+    with open('./dummy_data/bots.json') as json_file:
+        bots = json.load(json_file)
+        i = 0
+        for bot in bots:
+            print(create_user(bot["first_name"] + "_" + bot["last_name"]+ f"{i}", bot["email"], bot["first_name"]+"pass"))
+            print(create_bot(bot))
+            i += 1
+    
+        # # Print the type of data variable
+        # print("Type:", type(bots))
+    
+        # # Print the data of dictionary
+        # print("\nPeople1:", bots[0]['user_id'])
+        # print("\nPeople2:", bots[0]['first_name'])

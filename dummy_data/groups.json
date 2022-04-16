@@ -2,7 +2,7 @@
   {
     "conversation_name": "UWI Football Group",
     "private": false,
-    "criteria": "Football ",
+    "criteria": "Football",
     "photo": "https://i.imgur.com/RqRZOsI.png"
   },
   {
@@ -26,7 +26,7 @@
   {
     "conversation_name": "UWI Dance Hall Group",
     "private": false,
-    "criteria": "Dance Hall",
+    "criteria": "DanceHall",
     "photo": "https://i.imgur.com/I5JgiL9.jpeg"
   },
 
@@ -145,5 +145,11 @@
     "private": false,
     "criteria": "I do not like sports",
     "photo": "https://media.dayoftheshirt.com/images/shirts/fePF9/neatoshop_i-hate-sport_1512756764.large.png"
+  },
+  {
+    "conversation_name": "UWI Sport Students",
+    "private": false,
+    "criteria": "Sport",
+    "photo": "https://www.liberty.edu/champion/wp-content/uploads/2020/03/SPORTS.jpg"
   }
 ]

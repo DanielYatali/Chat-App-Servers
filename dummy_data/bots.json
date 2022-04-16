@@ -86,10 +86,10 @@
     "faculty": "Humanities & Education",
     "major": "BA Theology",
     "movie": "Action",
-    "music": "Dancehall",
+    "music": "Dance Hall",
     "photo": "https://i.imgur.com/Y5OuGGL.png",
     "staying_in": "going out",
-    "sport": "My sport is not here!",
+    "sport": "Tennis",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -107,7 +107,7 @@
     "city": "Freeport",
     "about": "I like space and technology",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Enineering",
+    "faculty": "Engineering",
     "major": "BSc Mechanical Engineering",
     "movie": "Horror",
     "music": "Soca",
@@ -132,10 +132,10 @@
     "city": "Cunupia",
     "about": "I like playing videogames",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Enineering",
+    "faculty": "Engineering",
     "major": "BSc Mechanical Engineering",
     "movie": "Romance",
-    "music": "Dancehall",
+    "music": "Dance Hall",
     "photo": "https://i.imgur.com/gb6a2Jn.png",
     "staying_in": "staying in",
     "sport": "Football",
@@ -157,13 +157,13 @@
     "city": "Cunupia",
     "about": "I like cars",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Enineering",
+    "faculty": "Engineering",
     "major": "BSc Civil Engineering",
     "movie": "Comedy",
     "music": "Pop",
     "photo": "https://i.imgur.com/N5R78GL.png",
     "staying_in": "going out",
-    "sport": "My sport is not here!",
+    "sport": "Tennis",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -182,13 +182,13 @@
     "city": "Chase Village",
     "about": "I like table tennis",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Enineering",
+    "faculty": "Engineering",
     "major": "BSc Civil Engineering",
     "movie": "Horror",
     "music": "Classical",
     "photo": "https://i.imgur.com/X3fFcU7.png",
     "staying_in": "going out",
-    "sport": "My sport is not here!",
+    "sport": "Tennis",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -210,7 +210,7 @@
     "faculty": "Medical Sciences",
     "major": "DR Medicine & Bachelor of Surgery (MBBS)",
     "movie": "Romance",
-    "music": "I like everything",
+    "music": "Pop",
     "photo": "https://i.imgur.com/FHzntR4.png",
     "staying_in": "going out",
     "sport": "Tennis",
@@ -235,7 +235,7 @@
     "faculty": "Medical Sciences",
     "major": "DR Medicine & Bachelor of Surgery (MBBS)",
     "movie": "Aimation",
-    "music": "Dancehall",
+    "music": "Dance Hall",
     "photo": "https://i.imgur.com/qLSYQPn.png",
     "staying_in": "going out",
     "sport": "Cricket",
@@ -288,7 +288,7 @@
     "music": "Soca",
     "photo": "https://i.imgur.com/0oZSBdS.png",
     "staying_in": "staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -410,10 +410,10 @@
     "faculty": "Humanities & Education",
     "major": "BA Theology",
     "movie": "Action",
-    "music": "Dancehall",
+    "music": "Dance Hall",
     "photo": "https://i.imgur.com/Y5OuGGL.png",
     "staying_in": "going out",
-    "sport": "My sport is not here!",
+    "sport": "Tennis",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -438,7 +438,7 @@
     "music": "Pop",
     "photo": "https://i.imgur.com/FHzntR4.png",
     "staying_in": "staying in",
-    "sport": "My sport is not here!",
+    "sport": "Tennis",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -513,7 +513,7 @@
     "music": "Soca",
     "photo": "https://i.imgur.com/pef2wZz.png",
     "staying_in": "staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -563,7 +563,7 @@
     "music": "Pop",
     "photo": "https://i.imgur.com/svtPg5E.png",
     "staying_in": "Staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -607,13 +607,13 @@
     "city": "Scarborough",
     "about": "I be lonely dawg",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Science and Technology",
+    "faculty": "Science & Technology",
     "major": "BSc Computer Science (Major)",
     "movie": "Animation",
     "music": "Pop",
     "photo": "https://i.imgur.com/qsoAWbh.png",
     "staying_in": "staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -632,13 +632,13 @@
     "city": "St. Augustine",
     "about": "Interested in meeting new people",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Science and Technology",
+    "faculty": "Science & Technology",
     "major": "BSc Computer Science (Major)",
     "movie": "Horror",
     "music": "Pop",
     "photo": "https://i.imgur.com/yVNsQyB.jpg",
     "staying_in": "going out",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -657,7 +657,7 @@
     "city": "Mayaro",
     "about": "Salt Life",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Science and Technology",
+    "faculty": "Science & Technology",
     "major": "BSc Information Technology (Special)",
     "movie": "Animation",
     "music": "Dance Hall",
@@ -682,7 +682,7 @@
     "city": "Arima",
     "about": "I rell tired",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Science and Technology",
+    "faculty": "Science & Technology",
     "major": "BSc Information Technology (Special)",
     "movie": "Animation",
     "music": "Pop",
@@ -763,7 +763,7 @@
     "music": "Pop",
     "photo": "https://i.imgur.com/EIetITH.png",
     "staying_in": "staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -788,7 +788,7 @@
     "music": "Pop",
     "photo": "https://i.imgur.com/pef2wZz.png",
     "staying_in": "going out",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -906,7 +906,7 @@
     "city": "Freeport",
     "about": "I like space and technology",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Enineering",
+    "faculty": "Engineering",
     "major": "BSc Mechanical Engineering",
     "movie": "Horror",
     "music": "Soca",
@@ -931,10 +931,10 @@
     "city": "Cunupia",
     "about": "I like playing videogames",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Enineering",
+    "faculty": "Engineering",
     "major": "BSc Mechanical Engineering",
     "movie": "Romance",
-    "music": "Dancehall",
+    "music": "Dance Hall",
     "photo": "https://i.imgur.com/gb6a2Jn.png",
     "staying_in": "staying in",
     "sport": "Football",
@@ -956,13 +956,13 @@
     "city": "Cunupia",
     "about": "I like cars",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Enineering",
+    "faculty": "Engineering",
     "major": "BSc Civil Engineering",
     "movie": "Comedy",
     "music": "Pop",
     "photo": "https://i.imgur.com/N5R78GL.png",
     "staying_in": "going out",
-    "sport": "My sport is not here!",
+    "sport": "Tennis",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -981,13 +981,13 @@
     "city": "Chase Village",
     "about": "I like table tennis",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Enineering",
+    "faculty": "Engineering",
     "major": "BSc Civil Engineering",
     "movie": "Horror",
     "music": "Classical",
     "photo": "https://i.imgur.com/X3fFcU7.png",
     "staying_in": "going out",
-    "sport": "My sport is not here!",
+    "sport": "Tennis",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -998,7 +998,7 @@
   },
 
   {
-    "user_id": 50,
+    "user_id": 41,
     "first_name": "Kaleb",
     "last_name": "Chotai",
     "email": "dBuddy@gmail.com",
@@ -1009,7 +1009,7 @@
     "faculty": "Medical Sciences",
     "major": "DR Medicine & Bachelor of Surgery (MBBS)",
     "movie": "Romance",
-    "music": "I like everything",
+    "music": "Pop",
     "photo": "https://i.imgur.com/FHzntR4.png",
     "staying_in": "going out",
     "sport": "Tennis",
@@ -1023,7 +1023,7 @@
   },
 
   {
-    "user_id": 51,
+    "user_id": 42,
     "first_name": "Cory",
     "last_name": "Achee",
     "email": "cachee@gmail.com",
@@ -1034,7 +1034,7 @@
     "faculty": "Medical Sciences",
     "major": "DR Medicine & Bachelor of Surgery (MBBS)",
     "movie": "Aimation",
-    "music": "Dancehall",
+    "music": "Dance Hall",
     "photo": "https://i.imgur.com/qLSYQPn.png",
     "staying_in": "going out",
     "sport": "Cricket",
@@ -1048,7 +1048,7 @@
   },
 
   {
-    "user_id": 52,
+    "user_id": 43,
     "first_name": "Kavir",
     "last_name": "David",
     "email": "kjd@gmail.com",
@@ -1073,7 +1073,7 @@
   },
 
   {
-    "user_id": 53,
+    "user_id": 44,
     "first_name": "Barry",
     "last_name": "Ali",
     "email": "barry@gmail.com",
@@ -1087,7 +1087,7 @@
     "music": "Soca",
     "photo": "https://i.imgur.com/0oZSBdS.png",
     "staying_in": "staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -1098,7 +1098,7 @@
   },
 
   {
-    "user_id": 54,
+    "user_id": 45,
     "first_name": "Sally",
     "last_name": "Pretapsingh",
     "email": "sallyP@gmail.com",
@@ -1123,7 +1123,7 @@
   },
 
   {
-    "user_id": 55,
+    "user_id": 46,
     "first_name": "Nicolette",
     "last_name": "Dindial",
     "email": "ndidni@gmail.com",
@@ -1137,7 +1137,7 @@
     "music": "Pop",
     "photo": "https://i.imgur.com/FHzntR4.png",
     "staying_in": "staying in",
-    "sport": "My sport is not here!",
+    "sport": "Tennis",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -1148,7 +1148,7 @@
   },
 
   {
-    "user_id": 56,
+    "user_id": 47,
     "first_name": "Samantha",
     "last_name": "Lal",
     "email": "samsam@gmail.com",
@@ -1173,7 +1173,7 @@
   },
 
   {
-    "user_id": 57,
+    "user_id": 48,
     "first_name": "Bobby",
     "last_name": "Smith",
     "email": "bobbyhead@gmail.com",
@@ -1198,7 +1198,7 @@
   },
 
   {
-    "user_id": 58,
+    "user_id": 49,
     "first_name": "Akash",
     "last_name": "Rampaul",
     "email": "a_rampaul@yahoo.com",
@@ -1212,7 +1212,7 @@
     "music": "Soca",
     "photo": "https://i.imgur.com/pef2wZz.png",
     "staying_in": "staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -1223,7 +1223,7 @@
   },
 
   {
-    "user_id": 59,
+    "user_id": 50,
     "first_name": "Jamal",
     "last_name": "Higgins",
     "email": "jhiggins@gmail.com",
@@ -1248,7 +1248,7 @@
   },
 
   {
-    "user_id": 60,
+    "user_id": 51,
     "first_name": "Sarika",
     "last_name": "Maharaj",
     "email": "sarikaschool@gmail.com",
@@ -1262,7 +1262,7 @@
     "music": "Pop",
     "photo": "https://i.imgur.com/svtPg5E.png",
     "staying_in": "Staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -1273,7 +1273,7 @@
   },
 
   {
-    "user_id": 61,
+    "user_id": 52,
     "first_name": "Isaiah",
     "last_name": "John",
     "email": "i_john@gmail.com",
@@ -1298,7 +1298,7 @@
   },
 
   {
-    "user_id": 62,
+    "user_id": 53,
     "first_name": "Zachary",
     "last_name": "Mahabir",
     "email": "zachMahabir@gmail.com",
@@ -1306,13 +1306,13 @@
     "city": "Scarborough",
     "about": "I be lonely dawg",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Science and Technology",
+    "faculty": "Science & Technology",
     "major": "BSc Computer Science (Major)",
     "movie": "Animation",
     "music": "Pop",
     "photo": "https://i.imgur.com/qsoAWbh.png",
     "staying_in": "staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -1323,7 +1323,7 @@
   },
 
   {
-    "user_id": 63,
+    "user_id": 54,
     "first_name": "Jessica",
     "last_name": "Smith",
     "email": "jsmithschool@gmail.com",
@@ -1331,13 +1331,13 @@
     "city": "St. Augustine",
     "about": "Interested in meeting new people",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Science and Technology",
+    "faculty": "Science & Technology",
     "major": "BSc Computer Science (Major)",
     "movie": "Horror",
     "music": "Pop",
     "photo": "https://i.imgur.com/yVNsQyB.jpg",
     "staying_in": "going out",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -1348,7 +1348,7 @@
   },
 
   {
-    "user_id": 64,
+    "user_id": 55,
     "first_name": "Cory",
     "last_name": "Inthehouse",
     "email": "cory_inthe@gmail.com",
@@ -1356,7 +1356,7 @@
     "city": "Mayaro",
     "about": "Salt Life",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Science and Technology",
+    "faculty": "Science & Technology",
     "major": "BSc Information Technology (Special)",
     "movie": "Animation",
     "music": "Dance Hall",
@@ -1373,7 +1373,7 @@
   },
 
   {
-    "user_id": 65,
+    "user_id": 56,
     "first_name": "Marc",
     "last_name": "Anthony",
     "email": "m_anthony@gmail.com",
@@ -1381,7 +1381,7 @@
     "city": "Arima",
     "about": "I rell tired",
     "university": "University of the West Indies, St. Augustine",
-    "faculty": "Science and Technology",
+    "faculty": "Science & Technology",
     "major": "BSc Information Technology (Special)",
     "movie": "Animation",
     "music": "Pop",
@@ -1398,7 +1398,7 @@
   },
 
   {
-    "user_id": 66,
+    "user_id": 57,
     "first_name": "Tom",
     "last_name": "Shelby",
     "email": "peakyblinders@gmail.com",
@@ -1423,7 +1423,7 @@
   },
 
   {
-    "user_id": 67,
+    "user_id": 58,
     "first_name": "Bradley",
     "last_name": "Jacob",
     "email": "bradleybusiness@gmail.com",
@@ -1448,7 +1448,7 @@
   },
 
   {
-    "user_id": 68,
+    "user_id": 59,
     "first_name": "Kendra",
     "last_name": "Cho",
     "email": "kcho@gmail.com",
@@ -1462,7 +1462,7 @@
     "music": "Pop",
     "photo": "https://i.imgur.com/EIetITH.png",
     "staying_in": "staying in",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -1473,7 +1473,7 @@
   },
 
   {
-    "user_id": 69,
+    "user_id": 60,
     "first_name": "Keesha",
     "last_name": "Jonas",
     "email": "keejo@gmail.com",
@@ -1487,7 +1487,7 @@
     "music": "Pop",
     "photo": "https://i.imgur.com/pef2wZz.png",
     "staying_in": "going out",
-    "sport": "I don't like sports",
+    "sport": "I do not like sports",
     "bot": "bot",
     "other_info": {
       "socials": {
@@ -1498,7 +1498,7 @@
   },
 
   {
-    "user_id": 70,
+    "user_id": 61,
     "first_name": "Jonathon",
     "last_name": "Ramkissoon",
     "email": "jramkissoon@gmail.com",
@@ -1523,7 +1523,7 @@
   },
 
   {
-    "user_id": 71,
+    "user_id": 62,
     "first_name": "Sylvan",
     "last_name": "Smith",
     "email": "ss_sport@gmail.com",
@@ -1548,7 +1548,7 @@
   },
 
   {
-    "user_id": 72,
+    "user_id": 63,
     "first_name": "Anastasia",
     "last_name": "John",
     "email": "anastasiaschool@gmail.com",
@@ -1573,7 +1573,7 @@
   },
 
   {
-    "user_id": 73,
+    "user_id": 64,
     "first_name": "Ibrahim",
     "last_name": "Ali",
     "email": "ibra_ali@gmail.com",

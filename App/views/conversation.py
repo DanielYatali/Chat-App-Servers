@@ -24,7 +24,7 @@ conversation_views = Blueprint('conversation_views', __name__, template_folder='
 @jwt_required()
 def add_message():
     message = request.get_json();
-    return jsonify(save_message(current_identity, message['conversation_id'], message['content'], message['datetime']))
+    return jsonify(save_message(current_identity, message['conversation_id'], message['content'], message['datetime'], message['photo']))
 
 @conversation_views.route('/add/conversation', methods=['POST'])
 @jwt_required()

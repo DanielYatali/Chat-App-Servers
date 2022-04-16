@@ -1,5 +1,5 @@
 import email
-from App.models import User_info, User
+from App.models import User_info, User, Conversation, message
 from App.models import db
 
 
@@ -13,7 +13,7 @@ def create_bot(user_data):
         return{
             "message": "bot already exist"
         }
-    new_user_info = User_info(user_id = user_data['user_id'],first_name=user_data['first_name'], last_name=user_data['last_name'], email = user_data['email'], country=user_data['country'], city = user_data['city'], university=user_data["university"],faculty=user_data['faculty'], major=user_data['major'],movie_type = user_data['movie'], music_type = user_data['music'], sport = user_data['sport'],about=user_data['about'], staying_in=user_data['staying_in'], bot=True, other_info= user_data['other_info'], photo = user_data['photo'])
+    new_user_info = User_info(user_id = user_data['user_id'],first_name=user_data['first_name'], last_name=user_data['last_name'], email = user_data['email'], country=user_data['country'], city = user_data['city'], university=user_data["university"],faculty=user_data['faculty'], major=user_data['major'],movie_type = user_data['movie'], music_type = user_data['music'], sport = user_data['sport'],about=user_data['about'], staying_in=user_data['staying_in'], bot="bot", other_info= user_data['other_info'], photo = user_data['photo'])
     db.session.add(new_user_info)
     user.user_info = new_user_info
 
@@ -103,12 +103,60 @@ def match(user_id):
         return{
             "message": "you must add user info before you can match"
         }
-    first_query = User_info.query.filter(User_info.major == current_user.user_info.major, User_info.faculty == current_user.user_info.faculty, User_info.user_id != current_user.id);
-    
-    if not first_query or first_query.count() == 1:
+    user_info = current_user.user_info
+    if not join_match_groups(current_user, user_info.faculty, user_info.sport,user_info.music_type, user_info.movie_type):
         return{
-            "message": "hard luck m8, no matches yet"
+            "message": f"Error invalid group match {user_info.faculty, user_info.sport,user_info.music_type, user_info.movie_type}"
+        }
+
+    first_query = User_info.query.filter(User_info.major == current_user.user_info.major, User_info.faculty == current_user.user_info.faculty, User_info.user_id != current_user.id)
+    if not first_query:
+        first_query = User_info.query.filter(User_info.faculty == current_user.user_info.faculty, User_info.user_id != current_user.id)
+
+    if not first_query:
+        return{
+            "message": "Sorry no matches yet, please check back later!"
         }
     matches = [query.toDict() for query in first_query]  
     return matches
 
+def join_match_groups(user, faculty, sport, music, movie): 
+    faculty_found = False
+    sport_found = False
+    music_found = False
+    movie_found = False
+
+    #search for groups
+    faculty_conversation = Conversation.query.filter_by(criteria = faculty).first()
+    sport_conversation = Conversation.query.filter_by(criteria = sport).first()
+    music_conversation = Conversation.query.filter_by(criteria = music).first()
+    movie_conversation = Conversation.query.filter_by(criteria = movie).first()
+
+    if not faculty_conversation or not sport_conversation or not music_conversation or not movie_conversation:
+        return False
+
+    #check if user has already joined these groups
+    if user.conversations:
+        for conversation in user.conversations:
+            if conversation.conversation_name == faculty_conversation:
+                faculty_found = True
+            if conversation.conversation_name == sport_conversation:
+                sport_found = True
+            if conversation.conversation_name == music_conversation:
+                music_found = True
+            if conversation.conversation_name == movie_conversation:
+                movie_found = True
+
+    #appending the conversation if user has not joined
+    if not faculty_found:
+        user.conversations.append(faculty_conversation)
+    if not sport_found:
+        user.conversations.append(sport_conversation)
+    if not movie_found:
+        user.conversations.append(movie_conversation)
+    if not music_found:
+        user.conversations.append(music_conversation)
+
+    db.session.commit()
+
+    return True

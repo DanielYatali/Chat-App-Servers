@@ -3,7 +3,7 @@ from App.models import Conversation, Message, User, conversation
 from App.database import db
 
 
-def save_message(user, conversation_id, content, datetime):
+def save_message(user, conversation_id, content, datetime, photo):
     conversation = Conversation.query.get(conversation_id)
     if not conversation:
         return {
@@ -14,7 +14,7 @@ def save_message(user, conversation_id, content, datetime):
     user_conversations = user.conversations
     for i in user_conversations:
         if i.id == conversation_id:
-            new_message = Message(sender_name=user.username, conversation_id=conversation_id, content = content, datetime=datetime)
+            new_message = Message(sender_name=user.username, conversation_id=conversation_id, content = content, datetime=datetime, photo=photo)
             db.session.add(new_message)
             conversation.messages.append(new_message)
             db.session.commit()
@@ -130,10 +130,13 @@ def join_conversation(user_id, conversation_id):
     }
 
 
-def create_matches_coversations(user, matches):
-    for match in matches: 
+def create_matches_coversations(user, person_matches):
+    for match in person_matches: 
         check_conversation_talk(user, match)
+    # for group_match in group_matches:
+    #     join_conversation(user.id, group_match.id)
     return {"message": "conversations created"}
+
 
 #Get all user's current conversations to be displayed on the side bar.
 #Since some conversations may be private and some conversations may be groups some extra work needs to be done

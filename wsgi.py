@@ -1,5 +1,6 @@
 import json
 import click
+from App.controllers.conversation import create_conversation
 from App.controllers.user_info import create_bot
 # from App.controllers.user_info import create_bot, create_user_info
 
@@ -34,10 +35,11 @@ def create_bots():
             print(create_user(bot["first_name"] + "_" + bot["last_name"]+ f"{i}", bot["email"], bot["first_name"]+"pass"))
             print(create_bot(bot))
             i += 1
-    
-        # # Print the type of data variable
-        # print("Type:", type(bots))
-    
-        # # Print the data of dictionary
-        # print("\nPeople1:", bots[0]['user_id'])
-        # print("\nPeople2:", bots[0]['first_name'])
+
+@app.cli.command("create-groups")
+def create_groups():
+     with open('./dummy_data/groups.json') as json_file:
+        groups = json.load(json_file)
+        for group in groups:
+            print(create_conversation(group["conversation_name"], group["private"], group["photo"], group["criteria"]))
+     

@@ -3,7 +3,9 @@ from flask import Flask
 from flask_uploads import DOCUMENTS, IMAGES, TEXT, UploadSet, configure_uploads
 from flask_cors import CORS
 from datetime import timedelta
-
+from werkzeug.utils import secure_filename
+from werkzeug.datastructures import  FileStorage
+from flask_login import LoginManager, current_user
 
 from App.database import init_db, get_migrate
 

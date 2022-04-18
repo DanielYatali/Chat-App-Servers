@@ -9,4 +9,3 @@ pytest==7.0.1
 python-dotenv==0.19.2
 psycopg2-binary==2.9.3
 flask-migrate==3.1.0
-Werkzeug==2.1.0

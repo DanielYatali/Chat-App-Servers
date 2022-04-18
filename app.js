@@ -1,3 +1,5 @@
+//Very simple socket server to handle sending messages
+
 import fetch from "node-fetch";
 import express from "express";
 import { Server } from "socket.io";
@@ -14,21 +16,9 @@ const io = new Server(server, {
   },
 });
 
-//in case server and client run on different urls
 const __dirname = path.resolve();
 app.use(express.static(join(__dirname, "public")));
-// app.get("/", (req, res) => {
-//   async function fetchAsync() {
-//     let response = await fetch(
-//       "https://hpofficepaper-database-chatapp.herokuapp.com/api/users"
-//     );
-//     let data = await response.json();
-//     console.log(data);
-//   }
 
-//   fetchAsync();
-//   res.send("hello world");
-// });
 server.listen(PORT, (err) => {
   if (err) console.log(err);
   console.log("Server running on Port ", PORT);
@@ -37,18 +27,12 @@ server.listen(PORT, (err) => {
 io.on("connection", (socket) => {
   console.log("client connected:", socket.id);
   socket.on("join-room", (data) => {
-    // console.log("join");
-    // console.log("data" + data);
     for (let i = 0; i < data.length; i++) {
       socket.join(data[i]);
-      console.log(data[i]);
     }
-    // data.forEach((room) => {
-    // });
   });
   socket.on("send-message", (msg) => {
-    console.log(msg);
-    // socket.join(msg.conversation_name);
+    //Save message to database
     async function fetchAsync() {
       let response = await fetch("http://localhost:8080/save/message", {
         method: "POST",
@@ -60,12 +44,11 @@ io.on("connection", (socket) => {
         body: JSON.stringify(msg),
       });
       let data = await response.json();
-      console.log("this");
       console.log(data);
     }
 
-    console.log("hi");
-    console.log(msg.conversation_name);
+    // console.log(msg.conversation_name);
+    //emits msg to conversation
     io.to(msg.conversation_name).emit("receive-message", msg);
     fetchAsync();
   });

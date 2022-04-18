@@ -39,6 +39,9 @@ class User_info(db.Model):
         self.other_info = other_info
         self.photo = photo
 
+    def __eq__(self, other):
+        return self.id == other.id
+         
     def toDict(self):
         return{
             'id': self.id,

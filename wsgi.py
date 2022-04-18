@@ -2,6 +2,7 @@ import json
 import click
 from App.controllers.conversation import create_conversation
 from App.controllers.user_info import create_bot
+from App.controllers.faculty import get_faculty_majors, create_faculty, add_new_major
 # from App.controllers.user_info import create_bot, create_user_info
 
 from App.database import create_db
@@ -42,4 +43,14 @@ def create_groups():
         groups = json.load(json_file)
         for group in groups:
             print(create_conversation(group["conversation_name"], group["private"], group["photo"], group["criteria"]))
-     
+
+@app.cli.command("create-faculty-data")
+def create_faculty_data():
+     with open('./dummy_data/faculty_data.json') as json_file:
+        faculties = json.load(json_file)
+        i = 1
+        for faculty in faculties:
+            print(create_faculty(faculty))
+            for major in faculties[faculty]:
+                print(add_new_major(i,major ))
+            i += 1

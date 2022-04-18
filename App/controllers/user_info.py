@@ -104,20 +104,27 @@ def match(user_id):
             "message": "you must add user info before you can match"
         }
     user_info = current_user.user_info
+    #Join groups based on selected criteria for the group
     if not join_match_groups(current_user, user_info.faculty, user_info.sport,user_info.music_type, user_info.movie_type):
         return{
             "message": f"Error invalid group match {user_info.faculty, user_info.sport,user_info.music_type, user_info.movie_type}"
         }
-
-    first_query = User_info.query.filter(User_info.major == current_user.user_info.major, User_info.faculty == current_user.user_info.faculty, User_info.user_id != current_user.id)
-    if not first_query:
-        first_query = User_info.query.filter(User_info.faculty == current_user.user_info.faculty, User_info.user_id != current_user.id)
+    matches = []
+    first_query = User_info.query.filter(User_info.faculty == current_user.user_info.faculty, User_info.user_id != current_user.id);
+    second_query = first_query.filter(User_info.major == current_user.user_info.major)
+    if second_query.count() < 5:
+        matches = [query.toDict() for query in second_query]
+        for info in first_query: 
+            #limited to a max of 7 matches
+            if second_query.count() >= 7:
+                break;
+            if info not in second_query:
+                matches.append(info.toDict())    
 
     if not first_query:
         return{
             "message": "Sorry no matches yet, please check back later!"
         }
-    matches = [query.toDict() for query in first_query]  
     return matches
 
 def join_match_groups(user, faculty, sport, music, movie): 

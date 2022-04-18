@@ -2,7 +2,7 @@ import json
 import click
 from App.controllers.conversation import create_conversation
 from App.controllers.user_info import create_bot
-from App.controllers.faculty import get_faculty_majors, create_faculty, add_new_major
+from App.controllers.faculty import create_faculty, add_new_major
 # from App.controllers.user_info import create_bot, create_user_info
 
 from App.database import create_db

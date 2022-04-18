@@ -1,5 +1,5 @@
 
-from App.models import Conversation, Message, User, conversation
+from App.models import Conversation, Message, User
 from App.database import db
 
 

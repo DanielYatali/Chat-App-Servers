@@ -1,4 +1,4 @@
-from App.models import User, message, user
+from App.models import User
 from App.database import db
 
 def get_user_id(username):

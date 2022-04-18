@@ -1,4 +1,3 @@
-from turtle import circle
 from App.database import db
 class Conversation(db.Model):
     id = db.Column(db.Integer, primary_key=True)

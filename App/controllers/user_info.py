@@ -112,11 +112,11 @@ def match(user_id):
     matches = []
     first_query = User_info.query.filter(User_info.faculty == current_user.user_info.faculty, User_info.user_id != current_user.id);
     second_query = first_query.filter(User_info.major == current_user.user_info.major)
-    if second_query.count() < 5:
+    if second_query.count() < 3:
         matches = [query.toDict() for query in second_query]
         for info in first_query: 
             #limited to a max of 7 matches
-            if second_query.count() >= 7:
+            if second_query.count() >= 4:
                 break;
             if info not in second_query:
                 matches.append(info.toDict())    

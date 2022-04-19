@@ -1,6 +1,10 @@
+Servers for https://myelinking.vercel.app/
+
 Database - branch master
 
 Socket server - branch main
 
-Servers for Chat-App-Client
-Currently in development
+Client - https://github.com/DanielYatali/Chat-App-Client
+
+
+

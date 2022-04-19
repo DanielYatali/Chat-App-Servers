@@ -35,7 +35,7 @@ io.on("connection", (socket) => {
     //Save message to database
     async function fetchAsync() {
       let response = await fetch(
-        "https://myelinking-database-chat-app.herokuapp.com/",
+        "https://myelinking-database-chat-app.herokuapp.com/save/message",
         {
           method: "POST",
           headers: {

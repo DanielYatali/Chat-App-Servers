@@ -1,8 +1,8 @@
 Servers for https://myelinking.vercel.app/
 
-Database - branch master
+Database - branch master https://myelinking-database-chat-app.herokuapp.com/
 
-Socket server - branch main
+Socket server - branch main https://myelinking-chat-socket.herokuapp.com/
 
 Client - https://github.com/DanielYatali/Chat-App-Client
 
